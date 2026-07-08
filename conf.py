@@ -264,6 +264,7 @@ languages_names = {
     'sv': 'SV',
     'th': 'TH',
     'uk': 'UA',
+    'uz': 'UZ',
     'vi': 'VI',
     'zh_CN': 'ZH (CN)',
     'zh_TW': 'ZH (TW)'
