@@ -19,15 +19,15 @@ msgstr ""
 
 #: ../../content/applications/hr.rst:5
 msgid "Human resources"
-msgstr ""
+msgstr "Inson resurslari"
 
 #: ../../content/applications/hr/appraisals.rst:5
 msgid "Appraisals"
-msgstr ""
+msgstr "Appraisals"
 
 #: ../../content/applications/hr/appraisals/360.rst:3
 msgid "360 Feedback"
-msgstr ""
+msgstr "360 Feedback"
 
 #: ../../content/applications/hr/appraisals/360.rst:5
 msgid ""
@@ -36,10 +36,15 @@ msgid ""
 "fuller view of each employee's strengths, growth areas, and collaboration "
 "skills."
 msgstr ""
+"Odoo **Appraisals** ilovasi menejerlarga o'z bevosita xodimlari haqida "
+"kompaniyadagi istalgan xodimdan fikr-mulohaza to'plash imkonini beradi. "
+"Hamkasblarning fikrlari menejerlarga har bir xodimning kuchli tomonlari, "
+"rivojlanish yo'nalishlari va hamkorlik ko'nikmalari haqida to'liqroq "
+"tasavvur beradi."
 
 #: ../../content/applications/hr/appraisals/360.rst:12
 msgid "360 feedback dashboard"
-msgstr ""
+msgstr "360 feedback boshqaruv paneli"
 
 #: ../../content/applications/hr/appraisals/360.rst:14
 msgid ""
@@ -48,10 +53,15 @@ msgid ""
 "statistics, navigate to :menuselection:`Appraisals app --> Configuration --> "
 "360 Feedback`."
 msgstr ""
+":guilabel:`360 Feedback` bo'limi **Appraisals** ilovasi uchun sozlangan "
+"barcha so'rovnomalar haqidagi ma'lumotlarni ko'rsatadi. So'rovnomalar va "
+"ularning statistikasini ko'rish uchun :menuselection:`Appraisals app --> "
+"Configuration --> 360 Feedback` yo'lidan o'ting."
 
 #: ../../content/applications/hr/appraisals/360.rst:None
 msgid "A list view of all available surveys in the Appraisals application."
 msgstr ""
+"Appraisals ilovasidagi barcha mavjud so'rovnomalarning ro'yxat ko'rinishi."
 
 #: ../../content/applications/hr/appraisals/360.rst:21
 msgid ""
@@ -59,30 +69,35 @@ msgid ""
 "the :guilabel:`360 Feedback` dashboard, along with various information "
 "related to that particular appraisal."
 msgstr ""
+"Har bir baholash, ya'ni so'rovnoma, :guilabel:`360 Feedback` boshqaruv "
+"panelida alohida qatorda, o'sha baholashga oid turli ma'lumotlar bilan birga "
+"ko'rsatiladi."
 
 #: ../../content/applications/hr/appraisals/360.rst:24
 msgid "Each appraisal includes the following information:"
-msgstr ""
+msgstr "Har bir baholash quyidagi ma'lumotlarni o'z ichiga oladi:"
 
 #: ../../content/applications/hr/appraisals/360.rst:26
 msgid ":guilabel:`Survey Name`: The name of the specific survey."
-msgstr ""
+msgstr ":guilabel:`Survey Name`: muayyan so'rovnomaning nomi."
 
 #: ../../content/applications/hr/appraisals/360.rst:27
 msgid ""
 ":guilabel:`Responsible`: The employee responsible for the survey, including "
 "the month and year they were given that designation."
 msgstr ""
+":guilabel:`Responsible`: so'rovnoma uchun mas'ul xodim, shuningdek unga "
+"ushbu vazifa yuklatilgan oy va yil."
 
 #: ../../content/applications/hr/appraisals/360.rst:29
 msgid ""
 ":guilabel:`Questions`: The number of questions in that particular survey."
-msgstr ""
+msgstr ":guilabel:`Questions`: ushbu so'rovnomadagi savollar soni."
 
 #: ../../content/applications/hr/appraisals/360.rst:30
 msgid ""
 ":guilabel:`Completed`: The number of people who have completed the survey."
-msgstr ""
+msgstr ":guilabel:`Completed`: so'rovnomani yakunlagan odamlar soni."
 
 #: ../../content/applications/hr/appraisals/360.rst:32
 msgid ""
@@ -90,16 +105,22 @@ msgid ""
 "the survey line. This opens the appraisal in a new tab to preview the "
 "questions without submitting answers. Close the tab to return to the list."
 msgstr ""
+"So'rovnomani sinab ko'rish uchun so'rovnoma qatorining o'ng "
+"tomonidagi :guilabel:`Test` tugmasini bosing. Bu baholashni yangi varaqda "
+"ochib, savollarni javob yubormasdan ko'rib chiqish imkonini beradi. "
+"Ro'yxatga qaytish uchun varaqni yoping."
 
 #: ../../content/applications/hr/appraisals/360.rst:39
 msgid "Request feedback"
-msgstr ""
+msgstr "Fikr-mulohaza so'rash"
 
 #: ../../content/applications/hr/appraisals/360.rst:41
 msgid ""
 "To request feedback from a colleague, navigate to the **Appraisals** app, "
 "and click on the appraisal card to open it."
 msgstr ""
+"Hamkasbdan fikr-mulohaza so'rash uchun **Appraisals** ilovasiga o'ting va "
+"baholash kartochkasini bosib oching."
 
 #: ../../content/applications/hr/appraisals/360.rst:44
 msgid ""
@@ -107,10 +128,15 @@ msgid ""
 "up window appears, using the :guilabel:`Appraisal: Ask Feedback` email "
 "template."
 msgstr ""
+":guilabel:`Ask Feedback` tugmasini bosing, shunda :guilabel:`Appraisal: Ask "
+"Feedback` email shablonidan foydalanadigan *Ask Feedback* qalqib chiquvchi "
+"email oynasi paydo bo'ladi."
 
 #: ../../content/applications/hr/appraisals/360.rst:48
 msgid "Only confirmed appraisals display the :guilabel:`Ask Feedback` button."
 msgstr ""
+":guilabel:`Ask Feedback` tugmasi faqat tasdiqlangan baholashlarda "
+"ko'rsatiladi."
 
 #: ../../content/applications/hr/appraisals/360.rst:50
 msgid ""
@@ -120,32 +146,43 @@ msgid ""
 "day the appraisal is due. Use the calendar selector to modify the date, if "
 "desired."
 msgstr ""
+"Avvalo, ochiluvchi menyu yordamida :guilabel:`Recipients` maydonida fikr-"
+"mulohaza so'raladigan xodimlarni tanlang. Bir nechta xodimni tanlash "
+"mumkin. :guilabel:`Answer Deadline` sanasi avtomatik ravishda baholash "
+"muddati kuniga o'rnatiladi. Agar xohlasangiz, sanani o'zgartirish uchun "
+"kalendar tanlagichidan foydalaning."
 
 #: ../../content/applications/hr/appraisals/360.rst:55
 msgid ""
 "The :guilabel:`Subject` is populated with `Take part in (Employee Name) "
 "appraisal`, but can be modified if desired."
 msgstr ""
+":guilabel:`Subject` maydoni `Take part in (Employee Name) appraisal` matni "
+"bilan to'ldiriladi, lekin xohlasangiz uni o'zgartirish mumkin."
 
 #: ../../content/applications/hr/appraisals/360.rst:58
 msgid ""
 "Type in any additional comments in the space provided, if desired. The email "
 "template copy is *not* displayed in the pop-up window."
 msgstr ""
+"Agar xohlasangiz, ajratilgan joyga qo'shimcha izohlar kiriting. Email "
+"shabloni matni qalqib chiquvchi oynada *ko'rsatilmaydi*."
 
 #: ../../content/applications/hr/appraisals/360.rst:61
 msgid ""
 "Click :guilabel:`Send`, and the feedback requests are sent to the specified "
 "employees."
 msgstr ""
+":guilabel:`Send` tugmasini bosing, shunda fikr-mulohaza so'rovlari "
+"ko'rsatilgan xodimlarga yuboriladi."
 
 #: ../../content/applications/hr/appraisals/360.rst:None
 msgid "The email pop-up when requesting feedback from other employees."
-msgstr ""
+msgstr "Boshqa xodimlardan fikr-mulohaza so'rashda ochiladigan email oynasi."
 
 #: ../../content/applications/hr/appraisals/360.rst:69
 msgid "View results"
-msgstr ""
+msgstr "Natijalarni ko'rish"
 
 #: ../../content/applications/hr/appraisals/360.rst:71
 msgid ""
@@ -154,38 +191,52 @@ msgid ""
 "dashboard loads, and presents a list of everyone requested to submit "
 "feedback. Each line displays the following information:"
 msgstr ""
+"Natijalarni ko'rish uchun so'rovnoma formasidagi :icon:`fa-pencil-square-"
+"o` :guilabel:`Feedbacks` tugmasini bosing. *Feedback Surveys* boshqaruv "
+"paneli yuklanadi va fikr-mulohaza yuborish so'ralgan barcha shaxslar "
+"ro'yxatini ko'rsatadi. Har bir qatorda quyidagi ma'lumotlar ko'rsatiladi:"
 
 #: ../../content/applications/hr/appraisals/360.rst:75
 msgid ""
 ":guilabel:`Employee`: The name of the employee who was requested to submit "
 "feedback."
-msgstr ""
+msgstr ":guilabel:`Employee`: fikr-mulohaza yuborish so'ralgan xodimning ismi."
 
 #: ../../content/applications/hr/appraisals/360.rst:76
 msgid ""
 ":guilabel:`Status`: An icon indicating if the feedback was :ref:`completed "
 "<appraisals/completed-360>` or :ref:`new <appraisals/new-360>`."
 msgstr ""
+":guilabel:`Status`: fikr-mulohaza :ref:`yakunlangan <appraisals/"
+"completed-360>` yoki :ref:`yangi <appraisals/new-360>` ekanini ko'rsatuvchi "
+"belgi."
 
 #: ../../content/applications/hr/appraisals/360.rst:78
 msgid ":guilabel:`Deadline`: The date and time the survey must be completed."
 msgstr ""
+":guilabel:`Deadline`: so'rovnoma yakunlanishi kerak bo'lgan sana va vaqt."
 
 #: ../../content/applications/hr/appraisals/360.rst:79
 msgid ""
 ":guilabel:`Survey`: The name of the survey, which is :guilabel:`Employee "
 "Opinion Form` by default."
 msgstr ""
+":guilabel:`Survey`: so'rovnomaning nomi, standart holatda "
+"bu :guilabel:`Employee Opinion Form` bo'ladi."
 
 #: ../../content/applications/hr/appraisals/360.rst:None
 msgid "The list of all feedback requests on the Feedback Surveys dashboard."
 msgstr ""
+"Feedback Surveys boshqaruv panelidagi barcha fikr-mulohaza so'rovlari "
+"ro'yxati."
 
 #: ../../content/applications/hr/appraisals/360.rst:86
 msgid ""
 "Feedback requests that have been sent but have **not** been completed are "
 "referred to as *new*."
 msgstr ""
+"Yuborilgan, lekin **yakunlanmagan** fikr-mulohaza so'rovlari *yangi* deb "
+"ataladi."
 
 #: ../../content/applications/hr/appraisals/360.rst:88
 msgid ""
@@ -194,16 +245,23 @@ msgid ""
 "select :guilabel:`360 Feedback` in the :guilabel:`Survey` field, then "
 "click :guilabel:`See Results`. The combined feedback loads in a new tab."
 msgstr ""
+"Barcha javoblarni ko'rish uchun :guilabel:`See results` tugmasini bosing, "
+"shunda *Choose Survey* qalqib chiquvchi oynasi ochiladi. Ochiluvchi menyu "
+"yordamida :guilabel:`Survey` maydonida :guilabel:`360 Feedback` ni tanlang, "
+"so'ng :guilabel:`See Results` tugmasini bosing. Jamlangan fikr-mulohazalar "
+"yangi varaqda ochiladi."
 
 #: ../../content/applications/hr/appraisals/360.rst:95
 msgid "Completed 360 feedback"
-msgstr ""
+msgstr "Yakunlangan 360 feedback"
 
 #: ../../content/applications/hr/appraisals/360.rst:97
 msgid ""
 "Feedback requests that have been completed display a "
 "green :guilabel:`Completed` status tag on the *Feedback Surveys* dashboard."
 msgstr ""
+"Yakunlangan fikr-mulohaza so'rovlari *Feedback Surveys* boshqaruv panelida "
+"yashil :guilabel:`Completed` holat belgisi bilan ko'rsatiladi."
 
 #: ../../content/applications/hr/appraisals/360.rst:100
 msgid ""
@@ -211,20 +269,26 @@ msgid ""
 "click :icon:`fa-check-square-o` :guilabel:`See Answers` at the end of the "
 "line, and the employee's individual responses load in a new tab."
 msgstr ""
+"Yakunlangan fikr-mulohaza formasining alohida javoblarini ko'rish uchun "
+"qator oxiridagi :icon:`fa-check-square-o` :guilabel:`See Answers` tugmasini "
+"bosing, shunda xodimning alohida javoblari yangi varaqda ochiladi."
 
 #: ../../content/applications/hr/appraisals/360.rst:104
 msgid "Close the tab when the review is complete."
-msgstr ""
+msgstr "Ko'rib chiqish tugagach, varaqni yoping."
 
 #: ../../content/applications/hr/appraisals/360.rst:109
 msgid "New 360 feedback"
-msgstr ""
+msgstr "Yangi 360 feedback"
 
 #: ../../content/applications/hr/appraisals/360.rst:111
 msgid ""
 "Feedback requests that were sent but have not been completed display a "
 "blue :guilabel:`New` status tag on the *Feedback Surveys* dashboard."
 msgstr ""
+"Yuborilgan, lekin hali yakunlanmagan fikr-mulohaza so'rovlari *Feedback "
+"Surveys* boshqaruv panelida ko'k :guilabel:`New` holat belgisi bilan "
+"ko'rsatiladi."
 
 #: ../../content/applications/hr/appraisals/360.rst:114
 msgid ""
@@ -232,10 +296,14 @@ msgid ""
 "o` :guilabel:`Resend` at the end of the line, and an *Ask Feedback* pop-up "
 "window loads. Click :guilabel:`Send` to resend the feedback request."
 msgstr ""
+"Zarur bo'lsa, so'rovni qayta yuborish mumkin. Qator oxiridagi :icon:`fa-"
+"check-square-o` :guilabel:`Resend` tugmasini bosing, shunda *Ask Feedback* "
+"qalqib chiquvchi oynasi ochiladi. Fikr-mulohaza so'rovini qayta yuborish "
+"uchun :guilabel:`Send` tugmasini bosing."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:3
 msgid "Appraisal analysis"
-msgstr ""
+msgstr "Baholash tahlili"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:5
 msgid ""
@@ -244,12 +312,19 @@ msgid ""
 "respective statuses. This report helps managers track scheduled appraisals, "
 "and identify any overdue or unconfirmed ones."
 msgstr ""
+"**Appraisals** ilovasi tizimdagi barcha baholashlar — o'tgan, joriy va "
+"kelgusi baholashlar hamda ularning holatlari bo'yicha hisobot tuzish "
+"imkoniyatiga ega. Bu hisobot menejerlarga rejalashtirilgan baholashlarni "
+"kuzatish hamda muddati o'tgan yoki tasdiqlanmagan baholashlarni aniqlashda "
+"yordam beradi."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:9
 msgid ""
 "To access the *Appraisal Analysis* report, navigate "
 "to :menuselection:`Appraisals app --> Reporting --> Appraisal Analysis`."
 msgstr ""
+"*Appraisal Analysis* hisobotini ochish uchun :menuselection:`Appraisals app "
+"--> Reporting --> Appraisal Analysis` yo'lidan o'ting."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:12
 msgid ""
@@ -257,16 +332,22 @@ msgid ""
 "the appraisals in the database, in a default graph chart. Appraisals are "
 "grouped by :guilabel:`Month`, then :guilabel:`Department`."
 msgstr ""
+":guilabel:`Appraisal Analysis` sahifasida ma'lumotlar bazasidagi barcha "
+"baholashlarni standart grafik diagramma ko'rinishida ko'rsatuvchi hisobot "
+"yuklanadi. Baholashlar avval :guilabel:`Month`, "
+"so'ngra :guilabel:`Department` bo'yicha guruhlanadi."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:17
 msgid "View by status"
-msgstr ""
+msgstr "Holat bo'yicha ko'rish"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:19
 msgid ""
 "Another way to view the *Appraisal Analysis* report is in the Gantt view, "
 "which provides visual information on the appraisal's status."
 msgstr ""
+"*Appraisal Analysis* hisobotini ko'rishning yana bir usuli — Gantt "
+"ko'rinishi bo'lib, u baholash holati haqida vizual ma'lumot beradi."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:22
 msgid ""
@@ -275,77 +356,86 @@ msgid ""
 "upper-right corner. The report displays the current year, grouped by "
 "department, with the current month highlighted."
 msgstr ""
+":menuselection:`Appraisals app --> Reporting --> Appraisal Analysis` "
+"yo'lidan o'ting va yuqori o'ng burchakdagi :icon:`fa-"
+"tasks` :guilabel:`(Gantt)` belgisini bosing. Hisobot joriy yilni bo'limlar "
+"bo'yicha guruhlangan holda, joriy oyni ajratib ko'rsatgan holda namoyish "
+"etadi."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:26
 msgid ""
 "Each entry is highlighted in a different color to represent their status:"
 msgstr ""
+"Har bir yozuv o'z holatini bildirish uchun turli rang bilan ajratib "
+"ko'rsatiladi:"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:29
 msgid "Color"
-msgstr ""
+msgstr "Rang"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:29
 msgid "Status"
-msgstr ""
+msgstr "Holat"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:29
 msgid "Meaning"
-msgstr ""
+msgstr "Ma'nosi"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:31
 msgid "Yellow"
-msgstr ""
+msgstr "Sariq"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:31
 msgid ":guilabel:`Done`"
-msgstr ""
+msgstr ":guilabel:`Done`"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:31
 msgid "The appraisal was completed."
-msgstr ""
+msgstr "Baholash yakunlangan."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:33
 msgid "Orange"
-msgstr ""
+msgstr "To'q sariq"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:33
 msgid ":guilabel:`Appraisal Sent`"
-msgstr ""
+msgstr ":guilabel:`Appraisal Sent`"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:33
 msgid "The appraisal was confirmed, but not completed."
-msgstr ""
+msgstr "Baholash tasdiqlangan, lekin yakunlanmagan."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:35
 msgid "Red"
-msgstr ""
+msgstr "Qizil"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:35
 msgid ":guilabel:`Cancelled`"
-msgstr ""
+msgstr ":guilabel:`Cancelled`"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:35
 msgid "The appraisal was cancelled."
-msgstr ""
+msgstr "Baholash bekor qilingan."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:37
 msgid "Gray"
-msgstr ""
+msgstr "Kulrang"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:37
 msgid ":guilabel:`To Start`"
-msgstr ""
+msgstr ":guilabel:`To Start`"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:37
 msgid "The appraisal was scheduled, but not confirmed."
-msgstr ""
+msgstr "Baholash rejalashtirilgan, lekin tasdiqlanmagan."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:41
 msgid ""
 "Appraisals are scheduled automatically (appear in gray), according to their "
 "respective :ref:`appraisals/appraisal-plan`."
 msgstr ""
+"Baholashlar o'zlariga tegishli :ref:`appraisals/appraisal-plan` asosida "
+"avtomatik rejalashtiriladi (kulrangda ko'rinadi)."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:44
 msgid ""
@@ -356,6 +446,12 @@ msgid ""
 "week`, :guilabel:`This month`, :guilabel:`This quarter`, and :guilabel:`This "
 "year`."
 msgstr ""
+"Ko'rsatilayotgan vaqt oralig'ini o'zgartirish uchun hisobotning yuqori chap "
+"burchagidagi sana sozlamalarini o'zgartiring: :icon:`fa-"
+"calendar` :guilabel:`From: (date) to (date)` ni bosib, variantlar ochiluvchi "
+"menyusini oching. Ko'rsatish uchun "
+"variantlar: :guilabel:`Today`, :guilabel:`This week`, :guilabel:`This "
+"month`, :guilabel:`This quarter` va :guilabel:`This year`."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:49
 msgid ""
@@ -363,12 +459,17 @@ msgid ""
 "and :guilabel:`To` fields at the bottom of the list, then "
 "click :guilabel:`Apply`."
 msgstr ""
+"Bundan tashqari, ro'yxat pastidagi :guilabel:`From` va :guilabel:`To` "
+"maydonlariga sanalar oralig'ini kiritib, so'ng :guilabel:`Apply` tugmasini "
+"bosish mumkin."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:52
 msgid ""
 "At any point, click the :icon:`fa-crosshairs` :guilabel:`(Focus Today)` "
 "button to have the report include today's date in the view."
 msgstr ""
+"Istalgan payt :icon:`fa-crosshairs` :guilabel:`(Focus Today)` tugmasini "
+"bosib, hisobot ko'rinishiga bugungi sanani kiritish mumkin."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:55
 msgid ""
@@ -377,20 +478,27 @@ msgid ""
 "details, click the :guilabel:`View` button, and further details appear in "
 "an :guilabel:`Open` pop-up window."
 msgstr ""
+"Istalgan baholash tafsilotlarini ko'rish uchun uni bosing. Baholash "
+"muddatini ko'rsatuvchi qalqib chiquvchi oyna paydo bo'ladi. Batafsilroq "
+"ma'lumot ko'rish uchun :guilabel:`View` tugmasini bosing, shunda qo'shimcha "
+"tafsilotlar :guilabel:`Open` qalqib chiquvchi oynasida ko'rsatiladi."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:59
 msgid ""
 "The report can have other :ref:`filters <search/filters>` "
 "and :ref:`groupings <search/group>` set in the search bar at the top."
 msgstr ""
+"Hisobotga yuqoridagi qidiruv paneli orqali boshqa :ref:`filtrlar <search/"
+"filters>` va :ref:`guruhlashlar <search/group>` o'rnatish mumkin."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:None
 msgid "A report showing all the appraisals for the Appraisal Analysis report."
 msgstr ""
+"Appraisal Analysis hisoboti uchun barcha baholashlarni ko'rsatuvchi hisobot."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:68
 msgid "Group by status"
-msgstr ""
+msgstr "Holat bo'yicha guruhlash"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:70
 msgid ""
@@ -399,6 +507,10 @@ msgid ""
 "information to view at one time. In this scenario, viewing the data by "
 "status can be beneficial."
 msgstr ""
+"Kompaniyada xodimlar soni ko'p bo'lsa, standart :guilabel:`Appraisal "
+"Analysis` hisoboti bir vaqtning o'zida ko'rish uchun juda ko'p ma'lumot "
+"ko'rsatishi mumkin. Bunday holatda ma'lumotlarni holat bo'yicha ko'rish "
+"foydali bo'ladi."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:74
 msgid ""
@@ -408,6 +520,11 @@ msgid ""
 "group` :guilabel:`Group By` column. Click away from the drop-down menu to "
 "close it."
 msgstr ""
+"Avval qidiruv panelidan barcha filtrlar va guruhlarni olib tashlang. So'ngra "
+"qidiruv panelining eng o'ng tomonidagi :icon:`fa-caret-"
+"down` :guilabel:`(Toggle Search Panel)` belgisini bosing. :icon:`oi-"
+"group` :guilabel:`Group By` ustunida :guilabel:`Status` ni bosing. Menyuni "
+"yopish uchun ochiluvchi menyudan tashqariga bosing."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:78
 msgid ""
@@ -415,20 +532,25 @@ msgid ""
 "order: :guilabel:`Cancelled`, :guilabel:`Done`, :guilabel:`To Start`, "
 "and :guilabel:`Appraisal Sent`."
 msgstr ""
+"Endi barcha baholashlar holat bo'yicha quyidagi tartibda "
+"joylashtiriladi: :guilabel:`Cancelled`, :guilabel:`Done`, :guilabel:`To "
+"Start` va :guilabel:`Appraisal Sent`."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:81
 msgid ""
 "This view shows which appraisals need to be completed, and when, as well as "
 "which appraisals still need to be confirmed."
 msgstr ""
+"Bu ko'rinish qaysi baholashlar qachon yakunlanishi kerakligini, shuningdek "
+"qaysi baholashlar hali tasdiqlanishi kerakligini ko'rsatadi."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:None
 msgid "A report showing all the appraisals, grouped by status."
-msgstr ""
+msgstr "Holat bo'yicha guruhlangan barcha baholashlarni ko'rsatuvchi hisobot."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:88
 msgid "Use case: view only the user's appraisals"
-msgstr ""
+msgstr "Amaliy misol: faqat foydalanuvchining baholashlarini ko'rish"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:90
 msgid ""
@@ -436,6 +558,9 @@ msgid ""
 "only view the appraisals the signed-in user is responsible for, and hide the "
 "rest."
 msgstr ""
+":guilabel:`Appraisal Analysis` hisobotini ko'rishda faqat tizimga kirgan "
+"foydalanuvchi mas'ul bo'lgan baholashlarni ko'rish va qolganlarini yashirish "
+"vaqtni tejashi mumkin."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:93
 msgid ""
@@ -443,6 +568,9 @@ msgid ""
 "Search Panel)` icon in the far-right of the search bar, revealing a drop-"
 "down menu."
 msgstr ""
+"Faqat shu ma'lumotlarni ko'rish uchun qidiruv panelining eng o'ng "
+"tomonidagi :icon:`fa-caret-down` :guilabel:`(Toggle Search Panel)` belgisini "
+"bosing, shunda ochiluvchi menyu paydo bo'ladi."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:97
 msgid ""
@@ -451,6 +579,9 @@ msgid ""
 "are grouped by department. If it is removed, the results appear in a list, "
 "alphabetically."
 msgstr ""
+"Standart :icon:`oi-group` :guilabel:`Department` guruhlashini olib tashlash "
+"shart emas. U faol qolsa, natijalar bo'limlar bo'yicha guruhlanadi. Olib "
+"tashlansa, natijalar alifbo tartibida ro'yxat ko'rinishida chiqadi."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:101
 msgid ""
@@ -458,6 +589,9 @@ msgid ""
 "filter` :guilabel:`Filters` column, and a :guilabel:`Add Custom Filter` pop-"
 "up window appears."
 msgstr ""
+":icon:`fa-filter` :guilabel:`Filters` ustunining pastidagi :guilabel:`Add "
+"Custom Filter` ni bosing, shunda :guilabel:`Add Custom Filter` qalqib "
+"chiquvchi oynasi paydo bo'ladi."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:104
 msgid ""
@@ -469,41 +603,55 @@ msgid ""
 "the desired user from the list. When all the fields are set, "
 "click :guilabel:`Add`."
 msgstr ""
+"Birinchi maydonni bosing, shunda turli variantlarga ega qalqib chiquvchi "
+"oyna paydo bo'ladi. :guilabel:`Employee` so'zidan keyingi :icon:`fa-chevron-"
+"right` :guilabel:`(right arrow)` belgisini bosing, so'ng pastga "
+"aylantirib :guilabel:`Manager` ni bosing. Keyin o'rta "
+"maydonni :guilabel:`=` :guilabel:`(equal)` ga o'rnating. Oxirida uchinchi "
+"maydonni bosib, ro'yxatdan kerakli foydalanuvchini tanlang. Barcha maydonlar "
+"o'rnatilgach, :guilabel:`Add` tugmasini bosing."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:None
 msgid "A customized filter to show only the user's employees."
 msgstr ""
+"Faqat foydalanuvchining xodimlarini ko'rsatish uchun moslashtirilgan filtr."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:113
 msgid ""
 "Now, the only appraisals that appear are the appraisals that the selected "
 "user is responsible for, instead of viewing *all* the appraisals."
 msgstr ""
+"Endi *barcha* baholashlar o'rniga faqat tanlangan foydalanuvchi mas'ul "
+"bo'lgan baholashlar ko'rsatiladi."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:116
 msgid ""
 "This report can also be :ref:`grouped by status <appraisals/group-status>`."
 msgstr ""
+"Bu hisobotni :ref:`holat bo'yicha guruhlash <appraisals/group-status>` ham "
+"mumkin."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:None
 msgid ""
 "A report showing only the appraisals the user is responsible for, by status."
 msgstr ""
+"Faqat foydalanuvchi mas'ul bo'lgan baholashlarni holat bo'yicha ko'rsatuvchi "
+"hisobot."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:122
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:159
 msgid ":doc:`Odoo essentials reporting <../../essentials/reporting>`"
-msgstr ""
+msgstr ":doc:`Odoo asoslari: hisobotlar <../../essentials/reporting>`"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:123
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:160
 #: ../../content/applications/hr/attendances/attendance_logs.rst:71
 msgid ":doc:`../../essentials/search`"
-msgstr ""
+msgstr ":doc:`../../essentials/search`"
 
 #: ../../content/applications/hr/appraisals/appraisal_templates.rst:3
 msgid "Appraisal templates"
-msgstr ""
+msgstr "Baholash shablonlari"
 
 #: ../../content/applications/hr/appraisals/appraisal_templates.rst:8
 msgid ""
@@ -513,10 +661,15 @@ msgid ""
 "needed, such as department-specific appraisal templates, new "
 "templates :ref:`can be created <appraisals/create-template>`."
 msgstr ""
+"**Appraisals** ilovasi barcha xodimlarga mos keladigan darajada umumiy "
+"bo'lgan, oldindan sozlangan standart shablondan foydalanadi. Xohlasangiz, "
+"standart shablonni :ref:`o'zgartirish mumkin <appraisals/modify-template>`. "
+"Agar bo'limga xos baholash shablonlari kabi turli shablonlar kerak bo'lsa, "
+"yangi shablonlarni :ref:`yaratish mumkin <appraisals/create-template>`."
 
 #: ../../content/applications/hr/appraisals/appraisal_templates.rst:16
 msgid "Modify appraisal templates"
-msgstr ""
+msgstr "Baholash shablonlarini o'zgartirish"
 
 #: ../../content/applications/hr/appraisals/appraisal_templates.rst:18
 msgid ""
@@ -524,6 +677,9 @@ msgid ""
 "template, navigate to :menuselection:`Appraisals app --> Configuration --> "
 "Appraisal Templates`."
 msgstr ""
+"Zarur bo'lsa, standart shablonga o'zgartirishlar kiritish mumkin. Standart "
+"shablonni ko'rish uchun :menuselection:`Appraisals app --> Configuration --> "
+"Appraisal Templates` yo'lidan o'ting."
 
 #: ../../content/applications/hr/appraisals/appraisal_templates.rst:21
 msgid ""
@@ -531,42 +687,49 @@ msgid ""
 "Click the template to view its details. Make any desired changes to the "
 "template."
 msgstr ""
+"Standart shablon ro'yxat ko'rinishida :guilabel:`Default` nomi bilan "
+"ko'rsatiladi. Tafsilotlarini ko'rish uchun shablonni bosing. Shablonga "
+"kerakli o'zgartirishlarni kiriting."
 
 #: ../../content/applications/hr/appraisals/appraisal_templates.rst:24
 msgid "The default template consists of the following questions:"
-msgstr ""
+msgstr "Standart shablon quyidagi savollardan iborat:"
 
 #: ../../content/applications/hr/appraisals/appraisal_templates.rst:26
 msgid "Odoo **Appraisals** default appraisal template"
-msgstr ""
+msgstr "Odoo **Appraisals** standart baholash shabloni"
 
 #: ../../content/applications/hr/appraisals/appraisal_templates.rst:29
 msgid "**Employee Feedback**"
-msgstr ""
+msgstr "**Xodimning fikr-mulohazasi**"
 
 #: ../../content/applications/hr/appraisals/appraisal_templates.rst:30
 msgid "**Manager Feedback**"
-msgstr ""
+msgstr "**Menejerning fikr-mulohazasi**"
 
 #: ../../content/applications/hr/appraisals/appraisal_templates.rst:33
 msgid "**My work**"
-msgstr ""
+msgstr "**Mening ishim**"
 
 #: ../../content/applications/hr/appraisals/appraisal_templates.rst:35
 msgid "**What are my most important achievements since my last appraisal?**"
 msgstr ""
+"**Oxirgi baholashdan beri erishgan eng muhim yutuqlarim nimalardan iborat?**"
 
 #: ../../content/applications/hr/appraisals/appraisal_templates.rst:37
 msgid ""
 "*Describe something you are proud of — work that had a positive impact on "
 "the company.*"
 msgstr ""
+"*O'zingiz faxrlanadigan biror narsani — kompaniyaga ijobiy ta'sir ko'rsatgan "
+"ishni tasvirlab bering.*"
 
 #: ../../content/applications/hr/appraisals/appraisal_templates.rst:39
 msgid ""
 "**What has been the most challenging aspect of my work this past year, and "
 "why?**"
 msgstr ""
+"**O'tgan yil davomida ishimning eng qiyin jihati nima bo'ldi va nima uchun?**"
 
 #: ../../content/applications/hr/appraisals/appraisal_templates.rst:41
 msgid "*Did you face any new difficulties or unexpected obstacles?*"
