@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../content/applications/finance.rst:5
 msgid "Finance"
-msgstr ""
+msgstr "Moliya"
 
 #: ../../content/applications/finance/accounting.rst:5
 msgid "Accounting and Invoicing"
-msgstr ""
+msgstr "Buxgalteriya hisobi va hisob-faktura"
 
 #: ../../content/applications/finance/accounting.rst:7
 msgid ""
@@ -34,20 +34,31 @@ msgid ""
 "as standard financial reports, bank reconciliation, budgets, asset "
 "management, and more."
 msgstr ""
+"Odoo Invoicing — hisob-fakturalar yaratish, ularni mijozlarga yuborish va "
+"to'lovlarni boshqarish uchun mo'ljallangan mustaqil ilova. U yetkazib "
+"beruvchi hisoblari bilan bog'liq jarayonlarni ham qamrab oladi. Boshqa "
+"tomondan, Accounting ilovasi xuddi shu amallarni bajarish imkonini beruvchi "
+"hamda standart moliyaviy hisobotlar, bank solishtirmasi (rekonsiliatsiya), "
+"byudjetlar, aktivlarni boshqarish va boshqa qo'shimcha funksiyalarni o'z "
+"ichiga olgan keng qamrovli buxgalteriya yechimidir."
 
 #: ../../content/applications/finance/accounting.rst:13
 msgid ""
 "`Odoo Tutorials: Accounting <https://www.odoo.com/slides/accounting-19>`_"
 msgstr ""
+"`Odoo darsliklari: Buxgalteriya hisobi <https://www.odoo.com/slides/"
+"accounting-19>`_"
 
 #: ../../content/applications/finance/accounting.rst:17
 #: ../../content/applications/finance/accounting/get_started.rst:5
 msgid "Get started"
-msgstr ""
+msgstr "Ishni boshlash"
 
 #: ../../content/applications/finance/accounting.rst:17
 msgid "Basic concepts of accounting and initial setup of your accounting"
 msgstr ""
+"Buxgalteriya hisobining asosiy tushunchalari va buxgalteriyangizni dastlabki "
+"sozlash"
 
 #: ../../content/applications/finance/accounting.rst:23
 #: ../../content/applications/finance/accounting/get_started.rst:83
@@ -79,11 +90,11 @@ msgstr ""
 #: ../../content/applications/finance/fiscal_localizations/uruguay.rst:245
 #: ../../content/applications/finance/fiscal_localizations/uzbekistan.rst:48
 msgid "Taxes"
-msgstr ""
+msgstr "Soliqlar"
 
 #: ../../content/applications/finance/accounting.rst:23
 msgid "Taxes, fiscal positions, and integrations"
-msgstr ""
+msgstr "Soliqlar, soliq pozitsiyalari va integratsiyalar"
 
 #: ../../content/applications/finance/accounting.rst:28
 #: ../../content/applications/finance/accounting/customer_invoices.rst:5
@@ -91,11 +102,12 @@ msgstr ""
 #: ../../content/applications/finance/fiscal_localizations/mexico.rst:434
 #: ../../content/applications/finance/fiscal_localizations/uruguay.rst:296
 msgid "Customer invoices"
-msgstr ""
+msgstr "Mijoz hisob-fakturalari"
 
 #: ../../content/applications/finance/accounting.rst:28
 msgid "Customer invoices, payment terms, and electronic invoicing"
 msgstr ""
+"Mijoz hisob-fakturalari, to'lov shartlari va elektron hisob-fakturalash"
 
 #: ../../content/applications/finance/accounting.rst:33
 #: ../../content/applications/finance/accounting/vendor_bills.rst:5
@@ -108,32 +120,37 @@ msgstr ""
 #: ../../content/applications/finance/fiscal_localizations/mexico.rst:524
 #: ../../content/applications/finance/fiscal_localizations/united_kingdom.rst:349
 msgid "Vendor bills"
-msgstr ""
+msgstr "Yetkazib beruvchi hisoblari"
 
 #: ../../content/applications/finance/accounting.rst:33
 msgid "Vendor bills, assets, and invoice digitization (OCR)"
 msgstr ""
+"Yetkazib beruvchi hisoblari, aktivlar va hisob-fakturalarni raqamlashtirish "
+"(OCR)"
 
 #: ../../content/applications/finance/accounting.rst:38
 #: ../../content/applications/finance/accounting/payments.rst:5
 #: ../../content/applications/finance/fiscal_localizations/mexico.rst:560
 msgid "Payments"
-msgstr ""
+msgstr "To'lovlar"
 
 #: ../../content/applications/finance/accounting.rst:38
 msgid ""
 "Invoices and bills payments (online, checks, batches) and follow-up on "
 "invoices"
 msgstr ""
+"Hisob-fakturalar va hisoblar bo'yicha to'lovlar (onlayn, cheklar, "
+"to'plamlar) hamda hisob-fakturalar bo'yicha eslatmalar"
 
 #: ../../content/applications/finance/accounting.rst:43
 #: ../../content/applications/finance/accounting/bank.rst:5
 msgid "Bank and cash accounts"
-msgstr ""
+msgstr "Bank va naqd pul hisoblari"
 
 #: ../../content/applications/finance/accounting.rst:43
 msgid "Bank synchronization, reconciliation, and cash registers"
 msgstr ""
+"Bank sinxronizatsiyasi, solishtirma (rekonsiliatsiya) va kassa apparatlari"
 
 #: ../../content/applications/finance/accounting.rst:48
 #: ../../content/applications/finance/accounting.rst:144
@@ -147,15 +164,15 @@ msgstr ""
 #: ../../content/applications/finance/fiscal_localizations/france.rst:92
 #: ../../content/applications/finance/fiscal_localizations/new_zealand.rst:111
 msgid "Reporting"
-msgstr ""
+msgstr "Hisobotlar"
 
 #: ../../content/applications/finance/accounting.rst:48
 msgid "Reporting, declarations, and analytic accounting"
-msgstr ""
+msgstr "Hisobotlar, deklaratsiyalar va analitik hisob"
 
 #: ../../content/applications/finance/accounting.rst:56
 msgid "Double-entry bookkeeping"
-msgstr ""
+msgstr "Ikki yoqlama yozuv usuli"
 
 #: ../../content/applications/finance/accounting.rst:58
 msgid ""
@@ -163,6 +180,10 @@ msgid ""
 "accounting transactions (e.g., customer invoices, vendor bills, point-of-"
 "sales orders, expenses, inventory valuations, etc.)."
 msgstr ""
+"Odoo barcha buxgalteriya operatsiyalari (masalan, mijoz hisob-fakturalari, "
+"yetkazib beruvchi hisoblari, savdo nuqtasi buyurtmalari, xarajatlar, zaxira "
+"baholashlari va h.k.) uchun barcha tegishli jurnal yozuvlarini avtomatik "
+"ravishda yaratadi."
 
 #: ../../content/applications/finance/accounting.rst:61
 msgid ""
@@ -171,15 +192,21 @@ msgid ""
 "account debited and the other credited. It ensures that all transactions are "
 "recorded accurately and consistently and that the accounts always balance."
 msgstr ""
+"Odoo ikki yoqlama yozuv tizimidan foydalanadi, ya'ni har bir yozuv boshqa "
+"hisobda mos va qarama-qarshi juftlikka ega bo'lishi kerak: bir hisob "
+"debetlanadi, ikkinchisi kreditlanadi. Bu barcha operatsiyalar aniq va izchil "
+"qayd etilishini hamda hisoblar doimo balansda bo'lishini ta'minlaydi."
 
 #: ../../content/applications/finance/accounting.rst:67
 #: ../../content/applications/finance/accounting.rst:296
 msgid ":doc:`Accounting Cheat Sheet <accounting/get_started/cheat_sheet>`"
 msgstr ""
+":doc:`Buxgalteriya bo'yicha qisqacha qo'llanma <accounting/get_started/"
+"cheat_sheet>`"
 
 #: ../../content/applications/finance/accounting.rst:72
 msgid "Accrual and cash basis"
-msgstr ""
+msgstr "Hisoblash va kassa usuli"
 
 #: ../../content/applications/finance/accounting.rst:74
 msgid ""
@@ -187,15 +214,19 @@ msgid ""
 "reporting income and expense either when the transaction occurs (accrual "
 "basis) or when the payment is made or received (cash basis)."
 msgstr ""
+"Odoo'da hisoblash usuli va kassa usuli bo'yicha buxgalteriya hisobining har "
+"ikkalasi ham qo'llab-quvvatlanadi. Bu daromad va xarajatlarni operatsiya "
+"sodir bo'lganda (hisoblash usuli) yoki to'lov amalga oshirilganda yoxud "
+"qabul qilinganda (kassa usuli) hisobotga kiritish imkonini beradi."
 
 #: ../../content/applications/finance/accounting.rst:79
 msgid ":doc:`Cash basis <accounting/taxes/cash_basis>`"
-msgstr ""
+msgstr ":doc:`Kassa usuli <accounting/taxes/cash_basis>`"
 
 #: ../../content/applications/finance/accounting.rst:84
 #: ../../content/applications/finance/fiscal_localizations/kenya.rst:143
 msgid "Multi-company"
-msgstr ""
+msgstr "Ko'p kompaniya"
 
 #: ../../content/applications/finance/accounting.rst:86
 msgid ""
@@ -207,20 +238,30 @@ msgid ""
 "companies simultaneously but can only work on a single company's accounting "
 "at a time."
 msgstr ""
+"Bitta ma'lumotlar bazasi ichida :doc:`bir nechta kompaniyani <../general/"
+"companies/multi_company>` boshqarish mumkin. Har bir kompaniya "
+"o'zining :doc:`hisoblar rejasiga <accounting/get_started/chart_of_accounts>` "
+"ega, ammo :ref:`hisoblar umumiy bo'lishi mumkin "
+"<consolidation_account_mapping>`, bu konsolidatsiya hisobotlarini ko'rishda "
+"foydalidir. Foydalanuvchilar bir vaqtning o'zida bir nechta kompaniyaning "
+"yozuvlari va hisobotlarini ko'rishlari mumkin, lekin bir vaqtda faqat bitta "
+"kompaniyaning buxgalteriyasi ustida ishlashlari mumkin."
 
 #: ../../content/applications/finance/accounting.rst:94
 msgid ":doc:`Multi-company </applications/general/companies/multi_company>`"
-msgstr ""
+msgstr ":doc:`Ko'p kompaniya </applications/general/companies/multi_company>`"
 
 #: ../../content/applications/finance/accounting.rst:95
 msgid ""
 ":ref:`Inter-company transactions <general/multi-company/inter-company-"
 "transactions>`"
 msgstr ""
+":ref:`Kompaniyalararo operatsiyalar <general/multi-company/inter-company-"
+"transactions>`"
 
 #: ../../content/applications/finance/accounting.rst:100
 msgid "Multi-currency environment"
-msgstr ""
+msgstr "Ko'p valyutali muhit"
 
 #: ../../content/applications/finance/accounting.rst:102
 msgid ""
@@ -231,17 +272,26 @@ msgid ""
 "the value in the company's currency and the transactions' currency value. "
 "Odoo generates currency gains and losses after reconciling the journal items."
 msgstr ""
+"Odoo'da xalqaro operatsiyalarni osonlashtirish uchun avtomatlashtirilgan "
+"valyuta kursiga ega :doc:`ko'p valyuta <accounting/get_started/"
+"multi_currency>` muhiti mavjud. Har bir operatsiya kompaniyaning standart "
+"valyutasida qayd etiladi; boshqa valyutada amalga oshirilgan operatsiyalar "
+"uchun Odoo qiymatni ham kompaniya valyutasida, ham operatsiya valyutasida "
+"saqlaydi. Odoo jurnal moddalari solishtirilgandan (rekonsiliatsiyadan) so'ng "
+"valyuta kursidagi foyda va zararlarni yaratadi."
 
 #: ../../content/applications/finance/accounting.rst:109
 msgid ""
 ":doc:`Manage a bank in a foreign currency <accounting/bank/foreign_currency>`"
 msgstr ""
+":doc:`Xorijiy valyutadagi bankni boshqarish <accounting/bank/"
+"foreign_currency>`"
 
 #: ../../content/applications/finance/accounting.rst:114
 #: ../../content/applications/finance/fiscal_localizations/egypt.rst:130
 #: ../../content/applications/finance/fiscal_localizations/mexico.rst:174
 msgid "Branches"
-msgstr ""
+msgstr "Filiallar"
 
 #: ../../content/applications/finance/accounting.rst:116
 msgid ""
@@ -250,6 +300,10 @@ msgid ""
 "single database, operating under shared accounting and reporting rules, "
 "including the following:"
 msgstr ""
+"Bosh :doc:`kompaniyalar </applications/general/companies>` va "
+"ularning :ref:`filiallarini <general/companies/branches>` bitta ma'lumotlar "
+"bazasi ichida, umumiy buxgalteriya va hisobot qoidalari asosida boshqarish "
+"mumkin, jumladan quyidagilar:"
 
 #: ../../content/applications/finance/accounting.rst:120
 msgid ""
@@ -257,10 +311,16 @@ msgid ""
 "chart_of_accounts>`, :doc:`main currency <accounting/get_started/"
 "multi_currency>`, and :doc:`taxes <accounting/taxes>` apply to all branches."
 msgstr ""
+"Bosh kompaniyaning :doc:`hisoblar rejasi <accounting/get_started/"
+"chart_of_accounts>`, :doc:`asosiy valyutasi <accounting/get_started/"
+"multi_currency>` va :doc:`soliqlari <accounting/taxes>` barcha filiallarga "
+"qo'llaniladi."
 
 #: ../../content/applications/finance/accounting.rst:123
 msgid "Branches can manage their own dedicated journals and related records."
 msgstr ""
+"Filiallar o'zlarining maxsus jurnallari va ular bilan bog'liq yozuvlarini "
+"boshqarishlari mumkin."
 
 #: ../../content/applications/finance/accounting.rst:124
 msgid ""
@@ -269,6 +329,11 @@ msgid ""
 "lock-everything-date>` apply across all branches. However, branches may set "
 "earlier lock dates if needed."
 msgstr ""
+"Bosh kompaniya umumiy :ref:`moliya davrini <accounting/year-end/fiscal-"
+"years>` boshqaradi, shuning uchun uning :ref:`qulflash va yopish sanalari "
+"<accounting/year-end/lock-everything-date>` barcha filiallarga qo'llaniladi. "
+"Biroq, zarur bo'lsa, filiallar ertaroq qulflash sanalarini belgilashlari "
+"mumkin."
 
 #: ../../content/applications/finance/accounting.rst:127
 msgid ""
@@ -277,24 +342,36 @@ msgid ""
 "<accounting/vendor_bills>`, etc., from its branches, while each branch can "
 "only view its own data."
 msgstr ""
+"Bosh kompaniya o'z filiallarining barcha :doc:`hisobotlariga <accounting/"
+"reporting>`, :doc:`hisob-fakturalariga <accounting/"
+"customer_invoices>`, :doc:`hisoblariga <accounting/vendor_bills>` va "
+"boshqalarga kirishi mumkin, har bir filial esa faqat o'z ma'lumotlarini "
+"ko'ra oladi."
 
 #: ../../content/applications/finance/accounting.rst:132
 msgid ""
 "The :doc:`Fiscal localization <fiscal_localizations>` package is set on the "
 "parent company."
 msgstr ""
+":doc:`Soliq lokalizatsiyasi <fiscal_localizations>` paketi bosh kompaniyada "
+"o'rnatiladi."
 
 #: ../../content/applications/finance/accounting.rst:135
 msgid ""
 "Adding a branch to a company enables :doc:`multi-company functions <../"
 "general/companies/multi_company>`."
 msgstr ""
+"Kompaniyaga filial qo'shish :doc:`ko'p kompaniya funksiyalarini <../general/"
+"companies/multi_company>` yoqadi."
 
 #: ../../content/applications/finance/accounting.rst:138
 msgid ""
 "For more information, refer to `Odoo's pricing page <https://www.odoo.com/"
 "pricing-plan>`_ or contact your Odoo account manager."
 msgstr ""
+"Qo'shimcha ma'lumot uchun `Odoo narxlar sahifasiga <https://www.odoo.com/"
+"pricing-plan>`_ murojaat qiling yoki Odoo akkaunt-menejeringiz bilan "
+"bog'laning."
 
 #: ../../content/applications/finance/accounting.rst:146
 msgid ""
@@ -302,10 +379,14 @@ msgid ""
 "providing a centralized view of :doc:`financial reports <accounting/"
 "reporting>`, such as profit and loss or balance sheets."
 msgstr ""
+"Bosh kompaniya barcha filiallarning buxgalteriya operatsiyalarini "
+"konsolidatsiya qiladi va foyda va zarar yoki balans kabi :doc:`moliyaviy "
+"hisobotlarning <accounting/reporting>` markazlashgan ko'rinishini "
+"ta'minlaydi."
 
 #: ../../content/applications/finance/accounting.rst:152
 msgid "VAT"
-msgstr ""
+msgstr "QQS"
 
 #: ../../content/applications/finance/accounting.rst:154
 msgid ""
@@ -314,16 +395,24 @@ msgid ""
 "may share the parent company's VAT number or have their own, resulting in a "
 "common or separate :doc:`VAT return <accounting/reporting/tax_returns>`."
 msgstr ""
+"Har bir kompaniya va filial o'zining yuridik ma'lumotlari, jumladan, "
+"tegishli hollarda QQS raqami bilan sozlanishi kerak. Tuzilmaga qarab, "
+"filiallar bosh kompaniyaning QQS raqamidan foydalanishlari yoki o'zlarining "
+"raqamiga ega bo'lishlari mumkin, bu esa umumiy yoki alohida :doc:`QQS "
+"deklaratsiyasiga <accounting/reporting/tax_returns>` olib keladi."
 
 #: ../../content/applications/finance/accounting.rst:159
 msgid ""
 "This flexible setup allows users to generate individual reports and tax "
 "returns for each entity if needed."
 msgstr ""
+"Ushbu moslashuvchan sozlama foydalanuvchilarga zarur bo'lganda har bir "
+"tashkilot uchun alohida hisobotlar va soliq deklaratsiyalarini yaratish "
+"imkonini beradi."
 
 #: ../../content/applications/finance/accounting.rst:165
 msgid "International standards"
-msgstr ""
+msgstr "Xalqaro standartlar"
 
 #: ../../content/applications/finance/accounting.rst:167
 msgid ""
@@ -334,10 +423,16 @@ msgid ""
 "regional requirements, such as charts of accounts, taxes, or any other legal "
 "obligations."
 msgstr ""
+"Odoo Accounting 100 dan ortiq mamlakatni qo'llab-quvvatlaydi hamda barcha "
+"hududlarda qo'llanadigan standartlashtirilgan funksiyalar va mexanizmlarni "
+"taqdim etadi. Mahalliy buxgalteriya qoidalariga rioya qilish uchun "
+"mamlakatga xos modullar kiritilgan. :doc:`Soliq lokalizatsiyalari "
+"<fiscal_localizations>` hisoblar rejasi, soliqlar yoki boshqa har qanday "
+"qonuniy majburiyatlar kabi hududiy talablarni qamrab oladi."
 
 #: ../../content/applications/finance/accounting.rst:175
 msgid "Accounts receivable and payable"
-msgstr ""
+msgstr "Debitorlik va kreditorlik hisoblari"
 
 #: ../../content/applications/finance/accounting.rst:177
 msgid ""
@@ -346,6 +441,10 @@ msgid ""
 "**contacts**, it is possible to run a report per customer, vendor, or "
 "supplier."
 msgstr ""
+"Standart holatda bitta hisob debitorlik yozuvlari uchun, boshqasi esa "
+"kreditorlik yozuvlari uchun belgilanadi. Operatsiyalar **kontaktlar** bilan "
+"bog'langanligi sababli, har bir mijoz, yetkazib beruvchi yoki ta'minotchi "
+"bo'yicha hisobot yuritish mumkin."
 
 #: ../../content/applications/finance/accounting.rst:181
 msgid ""
@@ -353,12 +452,17 @@ msgid ""
 "suppliers. To access it, go to :menuselection:`Accounting --> Reporting --> "
 "Partner Ledger`."
 msgstr ""
+"**Partner Ledger** hisoboti mijozlar va ta'minotchilarning balansini "
+"ko'rsatadi. Unga kirish uchun :menuselection:`Accounting --> Reporting --> "
+"Partner Ledger` yo'lidan o'ting."
 
 #: ../../content/applications/finance/accounting.rst:189
 msgid ""
 "The following financial :doc:`reports <accounting/reporting>` are available "
 "and updated in real-time:"
 msgstr ""
+"Quyidagi moliyaviy :doc:`hisobotlar <accounting/reporting>` mavjud bo'lib, "
+"real vaqt rejimida yangilanadi:"
 
 #: ../../content/applications/finance/accounting.rst:193
 #: ../../content/applications/finance/fiscal_localizations/austria.rst:39
@@ -366,66 +470,66 @@ msgstr ""
 #: ../../content/applications/finance/fiscal_localizations/colombia.rst:521
 #: ../../content/applications/finance/fiscal_localizations/uzbekistan.rst:102
 msgid "Financial reports"
-msgstr ""
+msgstr "Moliyaviy hisobotlar"
 
 #: ../../content/applications/finance/accounting.rst:195
 msgid "Statement"
-msgstr ""
+msgstr "Hisobot varaqasi"
 
 #: ../../content/applications/finance/accounting.rst:195
 #: ../../content/applications/finance/accounting/customer_invoices.rst:220
 #: ../../content/applications/finance/fiscal_localizations/uzbekistan.rst:107
 msgid "Balance sheet"
-msgstr ""
+msgstr "Balans hisoboti"
 
 #: ../../content/applications/finance/accounting.rst:197
 msgid "Profit and loss"
-msgstr ""
+msgstr "Foyda va zarar"
 
 #: ../../content/applications/finance/accounting.rst:199
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:353
 msgid "Cash flow statement"
-msgstr ""
+msgstr "Pul oqimi hisoboti"
 
 #: ../../content/applications/finance/accounting.rst:201
 msgid "Executive summary"
-msgstr ""
+msgstr "Qisqacha xulosa"
 
 #: ../../content/applications/finance/accounting.rst:203
 #: ../../content/applications/finance/accounting.rst:254
 #: ../../content/applications/finance/accounting/reporting/tax_returns.rst:108
 msgid "Tax return"
-msgstr ""
+msgstr "Soliq deklaratsiyasi"
 
 #: ../../content/applications/finance/accounting.rst:205
 msgid "EC sales list"
-msgstr ""
+msgstr "EC savdo ro'yxati"
 
 #: ../../content/applications/finance/accounting.rst:207
 msgid "Audit"
-msgstr ""
+msgstr "Audit"
 
 #: ../../content/applications/finance/accounting.rst:207
 #: ../../content/applications/finance/fiscal_localizations/mexico.rst:1201
 msgid "General ledger"
-msgstr ""
+msgstr "Bosh daftar"
 
 #: ../../content/applications/finance/accounting.rst:209
 #: ../../content/applications/finance/fiscal_localizations/mexico.rst:1165
 msgid "Trial balance"
-msgstr ""
+msgstr "Sinov balansi"
 
 #: ../../content/applications/finance/accounting.rst:211
 msgid "Journal audit"
-msgstr ""
+msgstr "Jurnal auditi"
 
 #: ../../content/applications/finance/accounting.rst:213
 msgid "Intrastat report"
-msgstr ""
+msgstr "Intrastat hisoboti"
 
 #: ../../content/applications/finance/accounting.rst:215
 msgid "Check register"
-msgstr ""
+msgstr "Chek reyestri"
 
 #: ../../content/applications/finance/accounting.rst:217
 #: ../../content/applications/finance/esg.rst:209
@@ -436,80 +540,82 @@ msgstr ""
 #: ../../content/applications/finance/fiscal_localizations/argentina.rst:146
 #: ../../content/applications/finance/fiscal_localizations/peru.rst:390
 msgid "Partner"
-msgstr ""
+msgstr "Hamkor"
 
 #: ../../content/applications/finance/accounting.rst:217
 msgid "Partner ledger"
-msgstr ""
+msgstr "Hamkor daftari"
 
 #: ../../content/applications/finance/accounting.rst:219
 msgid "Aged receivable"
-msgstr ""
+msgstr "Muddati o'tgan debitorlik qarzlari"
 
 #: ../../content/applications/finance/accounting.rst:221
 msgid "Aged payable"
-msgstr ""
+msgstr "Muddati o'tgan kreditorlik qarzlari"
 
 #: ../../content/applications/finance/accounting.rst:223
 msgid "Management"
-msgstr ""
+msgstr "Boshqaruv"
 
 #: ../../content/applications/finance/accounting.rst:223
 msgid "Invoice analysis"
-msgstr ""
+msgstr "Hisob-faktura tahlili"
 
 #: ../../content/applications/finance/accounting.rst:225
 msgid "Analytic report"
-msgstr ""
+msgstr "Analitik hisobot"
 
 #: ../../content/applications/finance/accounting.rst:227
 msgid "Audit trail"
-msgstr ""
+msgstr "Audit izi"
 
 #: ../../content/applications/finance/accounting.rst:229
 msgid "Budget report"
-msgstr ""
+msgstr "Byudjet hisoboti"
 
 #: ../../content/applications/finance/accounting.rst:231
 msgid "Unrealized currency gains/losses"
-msgstr ""
+msgstr "Amalga oshirilmagan valyuta daromadlari/zararlari"
 
 #: ../../content/applications/finance/accounting.rst:233
 msgid "Deferred revenue"
-msgstr ""
+msgstr "Kechiktirilgan daromad"
 
 #: ../../content/applications/finance/accounting.rst:235
 msgid "Deferred expense"
-msgstr ""
+msgstr "Kechiktirilgan xarajat"
 
 #: ../../content/applications/finance/accounting.rst:237
 msgid "Depreciation schedule"
-msgstr ""
+msgstr "Amortizatsiya jadvali"
 
 #: ../../content/applications/finance/accounting.rst:239
 #: ../../content/applications/finance/fiscal_localizations/belgium.rst:210
 #: ../../content/applications/finance/fiscal_localizations/united_arab_emirates.rst:212
 msgid "Disallowed expenses"
-msgstr ""
+msgstr "Ruxsat etilmagan xarajatlar"
 
 #: ../../content/applications/finance/accounting.rst:241
 msgid "Loans analysis"
-msgstr ""
+msgstr "Kreditlar tahlili"
 
 #: ../../content/applications/finance/accounting.rst:243
 msgid "Product margins"
-msgstr ""
+msgstr "Mahsulot marjalari"
 
 #: ../../content/applications/finance/accounting.rst:245
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:329
 msgid "1099 report"
-msgstr ""
+msgstr "1099 hisoboti"
 
 #: ../../content/applications/finance/accounting.rst:249
 msgid ""
 ":doc:`Create and customize reports <accounting/reporting/customize>` with "
 "Odoo's report engine."
 msgstr ""
+"Odoo hisobot mexanizmi yordamida :doc:`hisobotlarni yarating va "
+"moslashtiring <accounting/reporting/customize>`."
 
 #: ../../content/applications/finance/accounting.rst:256
 msgid ""
@@ -517,6 +623,9 @@ msgid ""
 "accounting transactions for the specific tax period and uses these totals to "
 "calculate the tax obligation."
 msgstr ""
+":ref:`Soliq deklaratsiyasida <accounting/tax-returns/report>` Odoo muayyan "
+"soliq davri uchun barcha buxgalteriya operatsiyalarini hisoblab chiqadi va "
+"ushbu jami summalardan soliq majburiyatini hisoblash uchun foydalanadi."
 
 #: ../../content/applications/finance/accounting.rst:260
 msgid ""
@@ -524,11 +633,13 @@ msgid ""
 "can be generated to be uploaded to the VAT platform of the relevant taxation "
 "authority."
 msgstr ""
+"Mamlakat lokalizatsiyasiga qarab, soliq hisobotining XML versiyasini "
+"tegishli soliq organining QQS platformasiga yuklash uchun yaratish mumkin."
 
 #: ../../content/applications/finance/accounting.rst:266
 #: ../../content/applications/finance/accounting/bank/bank_synchronization.rst:5
 msgid "Bank synchronization"
-msgstr ""
+msgstr "Bank sinxronizatsiyasi"
 
 #: ../../content/applications/finance/accounting.rst:268
 msgid ""
@@ -537,14 +648,18 @@ msgid ""
 "overview of the cash flow without logging into an online banking system or "
 "waiting for paper bank statements."
 msgstr ""
+"Bank sinxronizatsiyasi tizimi barcha operatsiyalarni ma'lumotlar bazasiga "
+"avtomatik import qilish uchun bank muassasalari bilan bevosita bog'lanadi. U "
+"onlayn-banking tizimiga kirmasdan yoki qog'oz bank ko'chirmalarini kutmasdan "
+"pul oqimi haqida umumiy ma'lumot beradi."
 
 #: ../../content/applications/finance/accounting.rst:273
 msgid ":doc:`Bank synchronization <accounting/bank/bank_synchronization>`"
-msgstr ""
+msgstr ":doc:`Bank sinxronizatsiyasi <accounting/bank/bank_synchronization>`"
 
 #: ../../content/applications/finance/accounting.rst:278
 msgid "Inventory valuation"
-msgstr ""
+msgstr "Zaxiralarni baholash"
 
 #: ../../content/applications/finance/accounting.rst:280
 msgid ""
@@ -552,14 +667,17 @@ msgid ""
 "supported in Odoo. The available methods are Standard Price, Average Cost "
 "(AVCO), and First In First Out (FIFO)."
 msgstr ""
+"Odoo-da zaxiralarni davriy (qo'lda) va doimiy (avtomatlashtirilgan) baholash "
+"usullarining ikkalasi ham qo'llab-quvvatlanadi. Mavjud usullar: Standart "
+"narx, O'rtacha tannarx (AVCO) va Birinchi kirgan birinchi chiqadi (FIFO)."
 
 #: ../../content/applications/finance/accounting.rst:284
 msgid ":doc:`../inventory_and_mrp/inventory/inventory_valuation/cheat_sheet`"
-msgstr ""
+msgstr ":doc:`../inventory_and_mrp/inventory/inventory_valuation/cheat_sheet`"
 
 #: ../../content/applications/finance/accounting.rst:289
 msgid "Retained earnings"
-msgstr ""
+msgstr "Taqsimlanmagan foyda"
 
 #: ../../content/applications/finance/accounting.rst:291
 msgid ""
@@ -568,42 +686,56 @@ msgid ""
 "rollover is required. The profit and loss balance is automatically reported "
 "on the balance sheet report."
 msgstr ""
+"Taqsimlanmagan foyda — bu biznes tomonidan saqlab qolingan daromad qismi. "
+"Odoo joriy yil foydasini real vaqtda hisoblab boradi, shuning uchun yil "
+"yakunidagi jurnal yozuvi yoki o'tkazma talab qilinmaydi. Foyda va zarar "
+"balansi balans hisobotida avtomatik ravishda aks ettiriladi."
 
 #: ../../content/applications/finance/accounting.rst:301
 msgid "Fiduciaries"
-msgstr ""
+msgstr "Fidutsiarlar"
 
 #: ../../content/applications/finance/accounting.rst:303
 msgid ""
 "The :guilabel:`Accounting Firms` mode can be activated by going "
 "to :menuselection:`Accounting --> Configuration --> Settings`. When enabled:"
 msgstr ""
+":guilabel:`Accounting Firms` rejimini :menuselection:`Accounting --> "
+"Configuration --> Settings` yo'lidan o'tib faollashtirish mumkin. Yoqilganda:"
 
 #: ../../content/applications/finance/accounting.rst:306
 msgid "The document's sequence becomes editable on all documents;"
 msgstr ""
+"Hujjat raqamlash ketma-ketligi barcha hujjatlarda tahrirlanadigan bo'ladi;"
 
 #: ../../content/applications/finance/accounting.rst:307
 msgid ""
 "The :guilabel:`Total (tax incl.)` field appears to speed up and control the "
 "encoding by automating line creation with the right account and tax;"
 msgstr ""
+":guilabel:`Total (tax incl.)` maydoni paydo bo'lib, to'g'ri hisob va soliq "
+"bilan qatorlar yaratishni avtomatlashtirish orqali kiritishni tezlashtiradi "
+"va nazorat qiladi;"
 
 #: ../../content/applications/finance/accounting.rst:309
 msgid ""
 ":guilabel:`Invoice Date` and :guilabel:`Bill Date` are pre-filled when "
 "encoding a transaction."
 msgstr ""
+"Operatsiyani kiritishda :guilabel:`Invoice Date` va :guilabel:`Bill Date` "
+"maydonlari oldindan to'ldiriladi."
 
 #: ../../content/applications/finance/accounting.rst:310
 msgid ""
 "A :guilabel:`Quick encoding` option is available for customer invoices and "
 "vendor bills."
 msgstr ""
+"Mijoz hisob-fakturalari va yetkazib beruvchi hisoblari "
+"uchun :guilabel:`Quick encoding` opsiyasi mavjud."
 
 #: ../../content/applications/finance/accounting.rst:315
 msgid "Share invoices with external accountants"
-msgstr ""
+msgstr "Hisob-fakturalarni tashqi buxgalterlar bilan ulashish"
 
 #: ../../content/applications/finance/accounting.rst:317
 msgid ""
@@ -614,10 +746,17 @@ msgid ""
 "specified email address, and to :ref:`download ZIP files <accounting/zip>` "
 "containing all invoices and all bills."
 msgstr ""
+"Odoo hisob-fakturalar va hisoblarni tashqi buxgalter bilan ulashishning bir "
+"nechta usullarini taklif etadi, jumladan ma'lumotlar bazangizga :ref:`kirish "
+"huquqlarini berish <accounting/accountant-access-rights>`, jurnaldagi hisob-"
+"fakturalar yoki hisoblarning nusxalarini ko'rsatilgan elektron pochta "
+"manziliga :ref:`avtomatik yuborish <accounting/send-copy>` hamda barcha "
+"hisob-fakturalar va barcha hisoblarni o'z ichiga olgan :ref:`ZIP fayllarni "
+"yuklab olish <accounting/zip>` imkoniyatlari."
 
 #: ../../content/applications/finance/accounting.rst:326
 msgid "Accountant access rights"
-msgstr ""
+msgstr "Buxgalter kirish huquqlari"
 
 #: ../../content/applications/finance/accounting.rst:328
 msgid ""
@@ -626,14 +765,19 @@ msgid ""
 "rights <../general/users/access_rights>` in the :guilabel:`Accounting` "
 "section to enable access to the company's financial data:"
 msgstr ""
+"Kompaniya buxgalteriga kirish huquqini berish uchun :ref:`buxgalterni yangi "
+"foydalanuvchi sifatida qo'shing <users/add-individual>` va kompaniyaning "
+"moliyaviy ma'lumotlariga kirishni yoqish uchun :guilabel:`Accounting` "
+"bo'limida tegishli :doc:`kirish huquqlarini <../general/users/"
+"access_rights>` sozlang:"
 
 #: ../../content/applications/finance/accounting.rst:333
 msgid ":guilabel:`Accounting`: Select :guilabel:`Administrator`."
-msgstr ""
+msgstr ":guilabel:`Accounting`: :guilabel:`Administrator` ni tanlang."
 
 #: ../../content/applications/finance/accounting.rst:334
 msgid ":guilabel:`Bank`: Allow bank account validation."
-msgstr ""
+msgstr ":guilabel:`Bank`: bank hisobini tasdiqlashga ruxsat bering."
 
 #: ../../content/applications/finance/accounting.rst:337
 msgid ""
@@ -645,81 +789,111 @@ msgid ""
 "each additional user. For more pricing information, see `Odoo's pricing "
 "<https://www.odoo.com/pricing-plan>`_."
 msgstr ""
+"Agar buxgalter kompaniya foydalanuvchisi uchun ko'rsatilgan elektron pochta "
+"manzili bilan ro'yxatdan o'tgan Odoo hisobiga ega bo'lsa, :doc:`Odoo Online "
+"<../../administration/odoo_online>` da buxgalterni yangi foydalanuvchi "
+"sifatida qo'shish bepul. Biroq :doc:`Odoo.sh <../../administration/odoo_sh>` "
+"va :doc:`Odoo On-premise <../../administration/on_premise>` da har bir "
+"qo'shimcha foydalanuvchi uchun qo'shimcha to'lovlar bo'lishi mumkin. Narxlar "
+"haqida batafsil ma'lumot uchun `Odoo's pricing <https://www.odoo.com/pricing-"
+"plan>`_ sahifasiga qarang."
 
 #: ../../content/applications/finance/accounting.rst:344
 msgid ""
 "For a multi-company environment, set the appropriate :ref:`access <users/"
 "multi-companies>`."
 msgstr ""
+"Ko'p kompaniyali muhit uchun tegishli :ref:`kirish huquqini <users/multi-"
+"companies>` o'rnating."
 
 #: ../../content/applications/finance/accounting.rst:349
 msgid "Send copies of a journal's invoices or bills"
-msgstr ""
+msgstr "Jurnaldagi hisob-fakturalar yoki hisoblarning nusxalarini yuborish"
 
 #: ../../content/applications/finance/accounting.rst:351
 msgid ""
 "Sales and purchase type journals can be used to send all of their invoices "
 "and bills to external email addresses. These records are sent in XML format."
 msgstr ""
+"Sotuv va xarid turidagi jurnallardan ularning barcha hisob-fakturalari va "
+"hisoblarini tashqi elektron pochta manzillariga yuborish uchun foydalanish "
+"mumkin. Ushbu yozuvlar XML formatida yuboriladi."
 
 #: ../../content/applications/finance/accounting.rst:354
 msgid ""
 "To configure a journal to automatically send its records to a specified "
 "email address, follow these steps:"
 msgstr ""
+"Jurnalni o'z yozuvlarini ko'rsatilgan elektron pochta manziliga avtomatik "
+"yuborish uchun sozlash maqsadida quyidagi amallarni bajaring:"
 
 #: ../../content/applications/finance/accounting.rst:357
 #: ../../content/applications/finance/accounting/vendor_bills.rst:144
 msgid "Navigate to :menuselection:`Accounting --> Configuration --> Journals`."
 msgstr ""
+":menuselection:`Accounting --> Configuration --> Journals` yo'lidan o'ting."
 
 #: ../../content/applications/finance/accounting.rst:358
 msgid "Open the desired journal."
-msgstr ""
+msgstr "Kerakli jurnalni oching."
 
 #: ../../content/applications/finance/accounting.rst:359
 msgid ""
 "In the :guilabel:`Advanced Settings` tab, enter an email address in "
 "the :guilabel:`Send Copy To` field."
 msgstr ""
+":guilabel:`Advanced Settings` varag'ida :guilabel:`Send Copy To` maydoniga "
+"elektron pochta manzilini kiriting."
 
 #: ../../content/applications/finance/accounting.rst:363
 msgid ""
 "Multiple email addresses can be entered. Separate them with `;` without a "
 "space (i.e.: `sample1@example.com;sample2@example.com`)."
 msgstr ""
+"Bir nechta elektron pochta manzillarini kiritish mumkin. Ularni bo'sh joysiz "
+"`;` bilan ajrating (masalan: `sample1@example.com;sample2@example.com`)."
 
 #: ../../content/applications/finance/accounting.rst:369
 msgid "ZIP file export"
-msgstr ""
+msgstr "ZIP fayl eksporti"
 
 #: ../../content/applications/finance/accounting.rst:371
 msgid ""
 "Groups of invoices and bills can be exported in ZIP files. To export "
 "invoices or bills in ZIP files, follow these steps:"
 msgstr ""
+"Hisob-fakturalar va hisoblar guruhlarini ZIP fayllarda eksport qilish "
+"mumkin. Hisob-fakturalar yoki hisoblarni ZIP fayllarda eksport qilish uchun "
+"quyidagi amallarni bajaring:"
 
 #: ../../content/applications/finance/accounting.rst:374
 msgid ""
 "Navigate to :menuselection:`Accounting --> Customers --> Invoices` "
 "or :menuselection:`Accounting --> Vendors --> Bills`."
 msgstr ""
+":menuselection:`Accounting --> Customers --> Invoices` "
+"yoki :menuselection:`Accounting --> Vendors --> Bills` yo'lidan o'ting."
 
 #: ../../content/applications/finance/accounting.rst:376
 msgid "Select the invoices or bills to be included in the ZIP file."
-msgstr ""
+msgstr "ZIP faylga kiritiladigan hisob-fakturalar yoki hisoblarni tanlang."
 
 #: ../../content/applications/finance/accounting.rst:377
 msgid ""
 "Click :icon:`fa-print` :guilabel:`Print` menu, and click :guilabel:`Export "
 "ZIP`."
 msgstr ""
+":icon:`fa-print` :guilabel:`Print` menyusini bosing va :guilabel:`Export "
+"ZIP` ni bosing."
 
 #: ../../content/applications/finance/accounting.rst:379
 msgid ""
 "Once the ZIP file is exported, it can be sent to an external accountant to "
 "provide them with all the information of your invoices and bills."
 msgstr ""
+"ZIP fayl eksport qilingandan so'ng, uni hisob-fakturalaringiz va "
+"hisoblaringiz haqidagi barcha ma'lumotlarni taqdim etish uchun tashqi "
+"buxgalterga yuborish mumkin."
 
 #: ../../content/applications/finance/accounting/bank.rst:7
 msgid ""
@@ -728,6 +902,11 @@ msgid ""
 "date and ready for :doc:`reconciliation <bank/reconciliation>` with your "
 "journal entries."
 msgstr ""
+"Ma'lumotlar bazangizda kerak bo'lganicha ko'p bank yoki naqd pul hisoblarini "
+"boshqarishingiz mumkin. Ularni to'g'ri sozlash barcha bank "
+"ma'lumotlaringizni yangilangan holda va jurnal yozuvlaringiz "
+"bilan :doc:`solishtirish <bank/reconciliation>` uchun tayyor holda saqlash "
+"imkonini beradi."
 
 #: ../../content/applications/finance/accounting/bank.rst:11
 msgid ""
@@ -735,32 +914,42 @@ msgid ""
 "all entries in a dedicated account. Both the journal and the account are "
 "automatically created and configured whenever you add a bank account."
 msgstr ""
+"Odoo Accounting ilovasida har bir bank hisobi barcha yozuvlarni maxsus "
+"hisobga o'tkazish uchun ajratilgan jurnalga ega. Bank hisobini "
+"qo'shganingizda jurnal ham, hisob ham avtomatik ravishda yaratiladi va "
+"sozlanadi."
 
 #: ../../content/applications/finance/accounting/bank.rst:16
 msgid ""
 ":ref:`Cash journals <accounting/journals/cash>` and accounts must be "
 "configured manually."
 msgstr ""
+":ref:`Naqd pul jurnallari <accounting/journals/cash>` va hisoblar qo'lda "
+"sozlanishi kerak."
 
 #: ../../content/applications/finance/accounting/bank.rst:18
 msgid ""
 "Bank journals are displayed by default on the :guilabel:`Accounting "
 "Dashboard` in the form of cards which include action buttons."
 msgstr ""
+"Bank jurnallari standart holatda :guilabel:`Accounting Dashboard` sahifasida "
+"amal tugmalarini o'z ichiga olgan kartalar ko'rinishida ko'rsatiladi."
 
 #: ../../content/applications/finance/accounting/bank.rst:None
 msgid ""
 "Bank journals are displayed on the Accounting Dashboard and contain action "
 "buttons"
 msgstr ""
+"Bank jurnallari Accounting boshqaruv panelida ko'rsatiladi va amal "
+"tugmalarini o'z ichiga oladi"
 
 #: ../../content/applications/finance/accounting/bank.rst:27
 msgid "Manage bank and cash accounts"
-msgstr ""
+msgstr "Bank va naqd pul hisoblarini boshqarish"
 
 #: ../../content/applications/finance/accounting/bank.rst:30
 msgid "Connect a bank for automatic synchronization"
-msgstr ""
+msgstr "Avtomatik sinxronlash uchun bankni ulash"
 
 #: ../../content/applications/finance/accounting/bank.rst:32
 msgid ""
@@ -770,16 +959,21 @@ msgid ""
 "bank from the list, click on :guilabel:`Connect`, and follow the "
 "instructions."
 msgstr ""
+"Bank hisobingizni ma'lumotlar bazangizga ulash uchun :guilabel:`Accounting "
+"Dashboard` sahifasiga o'ting va ulanmagan bankning kanban "
+"kartasida :guilabel:`Search over 26000 banks` tugmasini bosing. Ro'yxatdan "
+"bankingizni tanlang, :guilabel:`Connect` tugmasini bosing va ko'rsatmalarga "
+"amal qiling."
 
 #: ../../content/applications/finance/accounting/bank.rst:37
 #: ../../content/applications/finance/accounting/get_started.rst:183
 msgid ":doc:`bank/bank_synchronization`"
-msgstr ""
+msgstr ":doc:`bank/bank_synchronization`"
 
 #: ../../content/applications/finance/accounting/bank.rst:42
 #: ../../content/applications/finance/accounting/payments/batch.rst:164
 msgid "Create a bank account"
-msgstr ""
+msgstr "Bank hisobini yaratish"
 
 #: ../../content/applications/finance/accounting/bank.rst:44
 msgid ""
@@ -787,6 +981,9 @@ msgid ""
 "to connect your bank account to your database, you can configure your bank "
 "account manually."
 msgstr ""
+"Agar bank muassasangiz Odoo'da mavjud bo'lmasa yoki bank hisobingizni "
+"ma'lumotlar bazangizga ulashni xohlamasangiz, bank hisobingizni qo'lda "
+"sozlashingiz mumkin."
 
 #: ../../content/applications/finance/accounting/bank.rst:47
 msgid ""
@@ -796,12 +993,19 @@ msgid ""
 "the bottom right), fill out the bank information, and "
 "click :guilabel:`Create`."
 msgstr ""
+"Bank hisobini qo'lda qo'shish uchun :guilabel:`Accounting Dashboard` "
+"sahifasiga o'ting va ulanmagan bankning kanban kartasida :guilabel:`Search "
+"over 26000 banks` tugmasini bosing. So'ngra (pastki o'ng "
+"burchakdagi) :guilabel:`Record transactions manually` tugmasini bosing, bank "
+"ma'lumotlarini to'ldiring va :guilabel:`Create` tugmasini bosing."
 
 #: ../../content/applications/finance/accounting/bank.rst:53
 msgid ""
 "Odoo automatically detects the bank account type (e.g., IBAN) and enables "
 "some features accordingly."
 msgstr ""
+"Odoo bank hisobi turini (masalan, IBAN) avtomatik aniqlaydi va shunga mos "
+"ravishda ba'zi funksiyalarni yoqadi."
 
 #: ../../content/applications/finance/accounting/bank.rst:55
 msgid ""
@@ -811,6 +1015,11 @@ msgid ""
 "Bank`. Open it and edit the different fields to match your bank account "
 "information."
 msgstr ""
+"Standart :ref:`bank jurnali <accounting/journals/bank>` mavjud bo'lib, undan "
+"bank hisobingizni sozlash uchun foydalanish mumkin — buning "
+"uchun :menuselection:`Accounting --> Configuration --> Accounting: Journals "
+"--> Bank` yo'lidan o'ting. Uni oching va turli maydonlarni bank hisobingiz "
+"ma'lumotlariga mos ravishda tahrirlang."
 
 #: ../../content/applications/finance/accounting/bank/bank_synchronization.rst:7
 msgid ""
@@ -820,10 +1029,17 @@ msgid ""
 "providers <accounting/bank-synchronization/third-party-providers>` to "
 "connect with banks."
 msgstr ""
+"Odoo barcha bank tranzaksiyalarini ma'lumotlar bazasiga avtomatik import "
+"qilish uchun bank muassasangiz bilan bevosita sinxronlanadi. U butun dunyo "
+"bo'ylab 26 000 dan ortiq moliyaviy muassasalarni qo'llab-quvvatlaydi va "
+"banklar bilan ulanish uchun bir nechta :ref:`uchinchi tomon provayderlariga "
+"<accounting/bank-synchronization/third-party-providers>` tayanadi."
 
 #: ../../content/applications/finance/accounting/bank/bank_synchronization.rst:13
 msgid "To use this service, a valid Odoo Enterprise subscription is required."
 msgstr ""
+"Ushbu xizmatdan foydalanish uchun amaldagi Odoo Enterprise obunasi talab "
+"qilinadi."
 
 #: ../../content/applications/finance/accounting/bank/bank_synchronization.rst:16
 msgid ""
@@ -832,11 +1048,15 @@ msgid ""
 "click :guilabel:`See list of supported institutions` in the :guilabel:`Bank "
 "& Cash` section."
 msgstr ""
+"Bankingiz Odoo bilan mos kelishini tekshirish uchun `Odoo Accounting "
+"Features <https://www.odoo.com/app/accounting-features#part_5>`_ sahifasiga "
+"o'ting va :guilabel:`Bank & Cash` bo'limida :guilabel:`See list of supported "
+"institutions` tugmasini bosing."
 
 #: ../../content/applications/finance/accounting/bank/bank_synchronization.rst:21
 #: ../../content/applications/finance/accounting/bank/reconciliation.rst:22
 msgid ":doc:`transactions`"
-msgstr ""
+msgstr ":doc:`transactions`"
 
 #: ../../content/applications/finance/accounting/bank/bank_synchronization.rst:26
 #: ../../content/applications/finance/accounting/bank/bank_synchronization/basiq.rst:21
@@ -938,11 +1158,11 @@ msgstr ""
 #: ../../content/applications/finance/payment_providers/bank_payments.rst:79
 #: ../../content/applications/finance/payment_providers/demo.rst:9
 msgid "Configuration"
-msgstr ""
+msgstr "Sozlash"
 
 #: ../../content/applications/finance/accounting/bank/bank_synchronization.rst:31
 msgid "First synchronization"
-msgstr ""
+msgstr "Birinchi sinxronlash"
 
 #: ../../content/applications/finance/accounting/bank/bank_synchronization.rst:33
 msgid ""
@@ -951,6 +1171,10 @@ msgid ""
 "the :guilabel:`Add a Bank Account` window, select the relevant bank and "
 "click :guilabel:`Connect`."
 msgstr ""
+"Ma'lumotlar bazasini bank bilan sinxronlash uchun Accounting boshqaruv "
+"paneliga o'ting, :guilabel:`New` tugmasini bosing va :guilabel:`Bank` "
+"kartasini tanlang. :guilabel:`Add a Bank Account` oynasida tegishli bankni "
+"tanlang va :guilabel:`Connect` tugmasini bosing."
 
 #: ../../content/applications/finance/accounting/bank/bank_synchronization.rst:38
 msgid ""
@@ -959,6 +1183,10 @@ msgid ""
 "bank`, or click :guilabel:`Search over 26000 banks` in the Accounting "
 "dashboard."
 msgstr ""
+"Muqobil ravishda, :guilabel:`Bank` jurnalining :icon:`fa-ellipsis-"
+"v` :guilabel:`(vertical ellipsis)` belgisini, so'ngra :guilabel:`Connect "
+"bank` tugmasini bosing yoki Accounting boshqaruv panelida :guilabel:`Search "
+"over 26000 banks` tugmasini bosing."
 
 #: ../../content/applications/finance/accounting/bank/bank_synchronization.rst:41
 msgid ""
@@ -967,6 +1195,10 @@ msgid ""
 "synchronization/third-party-providers>` to connect with the bank if needed "
 "before clicking :guilabel:`Connect`."
 msgstr ""
+"Bankingiz va mamlakatingizga qarab, :guilabel:`Connect` tugmasini bosishdan "
+"oldin :guilabel:`Type of account` maydonini tanlashingiz va/yoki kerak "
+"bo'lsa bank bilan ulanish uchun boshqa :ref:`uchinchi tomon provayderini "
+"<accounting/bank-synchronization/third-party-providers>` tanlashingiz mumkin."
 
 #: ../../content/applications/finance/accounting/bank/bank_synchronization.rst:45
 msgid ""
@@ -977,6 +1209,13 @@ msgid ""
 "click :guilabel:`Connect`. A bank journal is then created and named using "
 "the account number. Note that in this case, the bank is not synchronized."
 msgstr ""
+"Agar bankingiz :guilabel:`Search for an institution` oynasidagi ro'yxatda "
+"bo'lmasa, ro'yxatni pastga aylantiring va bank hisobini qo'lda yaratish "
+"uchun :icon:`fa-plus` :guilabel:`Add new bank` tugmasini "
+"bosing. :guilabel:`Account Number`, :guilabel:`Bank` va :guilabel:`SWIFT "
+"Code` maydonlarini to'ldiring va :guilabel:`Connect` tugmasini bosing. "
+"Shundan so'ng bank jurnali yaratiladi va hisob raqami bilan nomlanadi. "
+"E'tibor bering, bu holatda bank sinxronlanmaydi."
 
 #: ../../content/applications/finance/accounting/bank/bank_synchronization.rst:50
 msgid ""
@@ -984,6 +1223,11 @@ msgid ""
 "proxy is blocking the address https://production.odoofin.com/. Make sure "
 "your web browser allows pop-ups and that any ad-blocker is disabled."
 msgstr ""
+"Agar birinchi sinxronlash paytida muammolar yuzaga kelsa, hech qanday "
+"xavfsizlik devori (firewall) yoki proksi https://production.odoofin.com/ "
+"manzilini bloklamayotganini tekshiring. Veb-brauzeringiz qalqib chiquvchi "
+"oynalarga ruxsat berishiga va har qanday reklama bloklovchi o'chirilganiga "
+"ishonch hosil qiling."
 
 #: ../../content/applications/finance/accounting/bank/bank_synchronization.rst:55
 msgid ""
@@ -995,6 +1239,13 @@ msgid ""
 "to :menuselection:`Accounting --> Accounting --> Lock Dates`, and set a date "
 "in the :guilabel:`Lock Everything` field."
 msgstr ""
+"Bank sinxronlashini sozlashda buxgalteriya tranzaksiyalari oxirgi "
+"tranzaksiya sanasi +1 kundan boshlab avtomatik yoziladi (masalan, oxirgi "
+"tranzaksiya sanasi 31/12/2025 bo'lsa, yozish 01/01/2026 dan boshlanadi). "
+"Agar jurnalda tranzaksiyalar bo'lmasa, barcha mavjud o'tgan tranzaksiyalar "
+"olinadi. Olish davrini cheklash uchun :menuselection:`Accounting --> "
+"Accounting --> Lock Dates` yo'lidan o'ting va :guilabel:`Lock Everything` "
+"maydonida sanani belgilang."
 
 #: ../../content/applications/finance/accounting/bank/bank_synchronization.rst:62
 msgid ""
