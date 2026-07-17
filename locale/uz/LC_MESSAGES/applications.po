@@ -19,8 +19,10 @@ msgstr ""
 
 #: ../../content/applications.rst:9
 msgid "User Docs"
-msgstr ""
+msgstr "Foydalanuvchi hujjatlari"
 
 #: ../../content/applications.rst:11
 msgid "Discover our user guides and configuration tutorials per application."
 msgstr ""
+"Har bir ilova bo'yicha foydalanuvchi qo'llanmalari va sozlash bo'yicha "
+"darsliklarimiz bilan tanishing."
