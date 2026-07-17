@@ -35428,7 +35428,7 @@ msgstr ""
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:308
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:929
 msgid "ODOO.CURRENCY.RATE(currency_from, currency_to, [date])"
-msgstr ""
+msgstr "ODOO.CURRENCY.RATE(currency_from, currency_to, [date])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:309
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:930
@@ -35436,6 +35436,9 @@ msgid ""
 "Takes two currency codes as arguments, and returns the exchange rate from "
 "the first currency to the second as float (not compatible with Excel)"
 msgstr ""
+"Ikkita valyuta kodini argument sifatida qabul qiladi va birinchi valyutadan "
+"ikkinchisiga almashuv kursini float ko'rinishida qaytaradi (Excel bilan mos "
+"emas)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:311
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:932
@@ -35443,6 +35446,8 @@ msgid ""
 "ODOO.DEBIT(account_codes, date_range, [offset], [company_id], "
 "[include_unposted])"
 msgstr ""
+"ODOO.DEBIT(account_codes, date_range, [offset], [company_id], "
+"[include_unposted])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:312
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:933
@@ -35450,11 +35455,13 @@ msgid ""
 "Returns the total debit for the specified account(s) and period (not "
 "compatible with Excel)"
 msgstr ""
+"Ko'rsatilgan hisob(lar) va davr uchun umumiy debetni qaytaradi (Excel bilan "
+"mos emas)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:313
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:937
 msgid "ODOO.FISCALYEAR.END(day, [company_id])"
-msgstr ""
+msgstr "ODOO.FISCALYEAR.END(day, [company_id])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:314
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:938
@@ -35462,11 +35469,13 @@ msgid ""
 "Returns the ending date of the fiscal year encompassing the provided date "
 "(not compatible with Excel)"
 msgstr ""
+"Berilgan sanani o'z ichiga olgan moliyaviy yilning tugash sanasini qaytaradi "
+"(Excel bilan mos emas)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:316
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:934
 msgid "ODOO.FISCALYEAR.START(day, [company_id])"
-msgstr ""
+msgstr "ODOO.FISCALYEAR.START(day, [company_id])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:317
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:935
@@ -35474,6 +35483,8 @@ msgid ""
 "Returns the starting date of the fiscal year encompassing the provided date "
 "(not compatible with Excel)"
 msgstr ""
+"Berilgan sanani o'z ichiga olgan moliyaviy yilning boshlanish sanasini "
+"qaytaradi (Excel bilan mos emas)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:319
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:940
@@ -35481,6 +35492,8 @@ msgid ""
 "ODOO.PARTNER.BALANCE(partner_ids, [account_codes], [date_range], [offset], "
 "[company_id], [include_unposted])"
 msgstr ""
+"ODOO.PARTNER.BALANCE(partner_ids, [account_codes], [date_range], [offset], "
+"[company_id], [include_unposted])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:321
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:942
@@ -35488,6 +35501,8 @@ msgid ""
 "Returns the partner balance for the specified account(s) and period (not "
 "compatible with Excel)"
 msgstr ""
+"Ko'rsatilgan hisob(lar) va davr uchun hamkor balansini qaytaradi (Excel "
+"bilan mos emas)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:323
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:944
@@ -35495,6 +35510,8 @@ msgid ""
 "ODOO.RESIDUAL([account_codes], [date_range], [offset], [company_id], "
 "[include_unposted])"
 msgstr ""
+"ODOO.RESIDUAL([account_codes], [date_range], [offset], [company_id], "
+"[include_unposted])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:324
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:945
@@ -35502,251 +35519,314 @@ msgid ""
 "Returns the residual amount for the specified account(s) and period (not "
 "compatible with Excel)"
 msgstr ""
+"Ko'rsatilgan hisob(lar) va davr uchun qoldiq summani qaytaradi (Excel bilan "
+"mos emas)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:326
 msgid "PDURATION(rate, present_value, future_value)"
-msgstr ""
+msgstr "PDURATION(rate, present_value, future_value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:327
 msgid ""
 "`Excel PDURATION article <https://support.microsoft.com/office/pduration-"
 "function-44f33460-5be5-4c90-b857-22308892adaf>`_"
 msgstr ""
+"`Excel PDURATION maqolasi <https://support.microsoft.com/office/pduration-"
+"function-44f33460-5be5-4c90-b857-22308892adaf>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:328
 msgid ""
 "PMT(rate, number_of_periods, present_value, [future_value], "
 "[end_or_beginning])"
 msgstr ""
+"PMT(rate, number_of_periods, present_value, [future_value], "
+"[end_or_beginning])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:329
 msgid ""
 "`Excel PMT article <https://support.microsoft.com/office/pmt-"
 "function-0214da64-9a63-4996-bc20-214433fa6441>`_"
 msgstr ""
+"`Excel PMT maqolasi <https://support.microsoft.com/office/pmt-"
+"function-0214da64-9a63-4996-bc20-214433fa6441>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:330
 msgid ""
 "PPMT(rate, period, number_of_periods, present_value, [future_value], "
 "[end_or_beginning])"
 msgstr ""
+"PPMT(rate, period, number_of_periods, present_value, [future_value], "
+"[end_or_beginning])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:331
 msgid ""
 "`Excel PPMT article <https://support.microsoft.com/office/ppmt-function-"
 "c370d9e3-7749-4ca4-beea-b06c6ac95e1b>`_"
 msgstr ""
+"`Excel PPMT maqolasi <https://support.microsoft.com/office/ppmt-function-"
+"c370d9e3-7749-4ca4-beea-b06c6ac95e1b>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:332
 msgid ""
 "PRICE(settlement, maturity, rate, yield, redemption, frequency, "
 "[day_count_convention])"
 msgstr ""
+"PRICE(settlement, maturity, rate, yield, redemption, frequency, "
+"[day_count_convention])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:333
 msgid ""
 "`Excel PRICE article <https://support.microsoft.com/office/price-"
 "function-3ea9deac-8dfa-436f-a7c8-17ea02c21b0a>`_"
 msgstr ""
+"`Excel PRICE maqolasi <https://support.microsoft.com/office/price-"
+"function-3ea9deac-8dfa-436f-a7c8-17ea02c21b0a>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:334
 msgid ""
 "PRICEDISC(settlement, maturity, discount, redemption, [day_count_convention])"
 msgstr ""
+"PRICEDISC(settlement, maturity, discount, redemption, [day_count_convention])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:335
 msgid ""
 "`Excel PRICEDISC article <https://support.microsoft.com/office/pricedisc-"
 "function-d06ad7c1-380e-4be7-9fd9-75e3079acfd3>`_"
 msgstr ""
+"`Excel PRICEDISC maqolasi <https://support.microsoft.com/office/pricedisc-"
+"function-d06ad7c1-380e-4be7-9fd9-75e3079acfd3>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:336
 msgid ""
 "PRICEMAT(settlement, maturity, issue, rate, yield, [day_count_convention])"
 msgstr ""
+"PRICEMAT(settlement, maturity, issue, rate, yield, [day_count_convention])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:337
 msgid ""
 "`Excel PRICEMAT article <https://support.microsoft.com/office/pricemat-"
 "function-52c3b4da-bc7e-476a-989f-a95f675cae77>`_"
 msgstr ""
+"`Excel PRICEMAT maqolasi <https://support.microsoft.com/office/pricemat-"
+"function-52c3b4da-bc7e-476a-989f-a95f675cae77>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:338
 msgid ""
 "PV(rate, number_of_periods, payment_amount, [future_value], "
 "[end_or_beginning])"
 msgstr ""
+"PV(rate, number_of_periods, payment_amount, [future_value], "
+"[end_or_beginning])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:339
 msgid ""
 "`Excel PV article <https://support.microsoft.com/office/pv-"
 "function-23879d31-0e02-4321-be01-da16e8168cbd>`_"
 msgstr ""
+"`Excel PV maqolasi <https://support.microsoft.com/office/pv-"
+"function-23879d31-0e02-4321-be01-da16e8168cbd>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:340
 msgid ""
 "RATE(number_of_periods, payment_per_period, present_value, [future_value], "
 "[end_or_beginning], [rate_guess])"
 msgstr ""
+"RATE(number_of_periods, payment_per_period, present_value, [future_value], "
+"[end_or_beginning], [rate_guess])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:342
 msgid ""
 "`Excel RATE article <https://support.microsoft.com/office/rate-"
 "function-9f665657-4a7e-4bb7-a030-83fc59e748ce>`_"
 msgstr ""
+"`Excel RATE maqolasi <https://support.microsoft.com/office/rate-"
+"function-9f665657-4a7e-4bb7-a030-83fc59e748ce>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:343
 msgid ""
 "RECEIVED(settlement, maturity, investment, discount, [day_count_convention])"
 msgstr ""
+"RECEIVED(settlement, maturity, investment, discount, [day_count_convention])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:344
 msgid ""
 "`Excel RECEIVED article <https://support.microsoft.com/office/received-"
 "function-7a3f8b93-6611-4f81-8576-828312c9b5e5>`_"
 msgstr ""
+"`Excel RECEIVED maqolasi <https://support.microsoft.com/office/received-"
+"function-7a3f8b93-6611-4f81-8576-828312c9b5e5>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:345
 msgid "RRI(number_of_periods, present_value, future_value)"
-msgstr ""
+msgstr "RRI(number_of_periods, present_value, future_value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:346
 msgid ""
 "`Excel RRI article <https://support.microsoft.com/office/rri-"
 "function-6f5822d8-7ef1-4233-944c-79e8172930f4>`_"
 msgstr ""
+"`Excel RRI maqolasi <https://support.microsoft.com/office/rri-"
+"function-6f5822d8-7ef1-4233-944c-79e8172930f4>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:347
 msgid "SLN(cost, salvage, life)"
-msgstr ""
+msgstr "SLN(cost, salvage, life)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:348
 msgid ""
 "`Excel SLN article <https://support.microsoft.com/office/sln-function-"
 "cdb666e5-c1c6-40a7-806a-e695edc2f1c8>`_"
 msgstr ""
+"`Excel SLN maqolasi <https://support.microsoft.com/office/sln-function-"
+"cdb666e5-c1c6-40a7-806a-e695edc2f1c8>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:349
 msgid "SYD(cost, salvage, life, period)"
-msgstr ""
+msgstr "SYD(cost, salvage, life, period)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:350
 msgid ""
 "`Excel SYD article <https://support.microsoft.com/office/syd-"
 "function-069f8106-b60b-4ca2-98e0-2a0f206bdb27>`_"
 msgstr ""
+"`Excel SYD maqolasi <https://support.microsoft.com/office/syd-"
+"function-069f8106-b60b-4ca2-98e0-2a0f206bdb27>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:351
 msgid "TBILLEQ(settlement, maturity, discount)"
-msgstr ""
+msgstr "TBILLEQ(settlement, maturity, discount)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:352
 msgid ""
 "`Excel TBILLEQ article <https://support.microsoft.com/office/tbilleq-"
 "function-2ab72d90-9b4d-4efe-9fc2-0f81f2c19c8c>`_"
 msgstr ""
+"`Excel TBILLEQ maqolasi <https://support.microsoft.com/office/tbilleq-"
+"function-2ab72d90-9b4d-4efe-9fc2-0f81f2c19c8c>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:353
 msgid "TBILLPRICE(settlement, maturity, discount)"
-msgstr ""
+msgstr "TBILLPRICE(settlement, maturity, discount)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:354
 msgid ""
 "`Excel TBILLPRICE article <https://support.microsoft.com/office/tbillprice-"
 "function-eacca992-c29d-425a-9eb8-0513fe6035a2>`_"
 msgstr ""
+"`Excel TBILLPRICE maqolasi <https://support.microsoft.com/office/tbillprice-"
+"function-eacca992-c29d-425a-9eb8-0513fe6035a2>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:355
 msgid "TBILLYIELD(settlement, maturity, price)"
-msgstr ""
+msgstr "TBILLYIELD(settlement, maturity, price)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:356
 msgid ""
 "`Excel TBILLYIELD article <https://support.microsoft.com/office/tbillyield-"
 "function-6d381232-f4b0-4cd5-8e97-45b9c03468ba>`_"
 msgstr ""
+"`Excel TBILLYIELD maqolasi <https://support.microsoft.com/office/tbillyield-"
+"function-6d381232-f4b0-4cd5-8e97-45b9c03468ba>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:357
 msgid "VDB(cost, salvage, life, start, end, [factor], [no_switch])"
-msgstr ""
+msgstr "VDB(cost, salvage, life, start, end, [factor], [no_switch])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:358
 msgid ""
 "`Excel VDB article <https://support.microsoft.com/office/vdb-function-"
 "dde4e207-f3fa-488d-91d2-66d55e861d73>`_"
 msgstr ""
+"`Excel VDB maqolasi <https://support.microsoft.com/office/vdb-function-"
+"dde4e207-f3fa-488d-91d2-66d55e861d73>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:359
 msgid "XIRR(cashflow_amounts, cashflow_dates, [rate_guess])"
-msgstr ""
+msgstr "XIRR(cashflow_amounts, cashflow_dates, [rate_guess])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:360
 msgid ""
 "`Excel XIRR article <https://support.microsoft.com/office/xirr-function-"
 "de1242ec-6477-445b-b11b-a303ad9adc9d>`_"
 msgstr ""
+"`Excel XIRR maqolasi <https://support.microsoft.com/office/xirr-function-"
+"de1242ec-6477-445b-b11b-a303ad9adc9d>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:361
 msgid "XNPV(discount, cashflow_amounts, cashflow_dates)"
-msgstr ""
+msgstr "XNPV(discount, cashflow_amounts, cashflow_dates)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:362
 msgid ""
 "`Excel XNPV article <https://support.microsoft.com/office/xnpv-"
 "function-1b42bbf6-370f-4532-a0eb-d67c16b664b7>`_"
 msgstr ""
+"`Excel XNPV maqolasi <https://support.microsoft.com/office/xnpv-"
+"function-1b42bbf6-370f-4532-a0eb-d67c16b664b7>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:363
 msgid ""
 "YIELD(settlement, maturity, rate, price, redemption, frequency, "
 "[day_count_convention])"
 msgstr ""
+"YIELD(settlement, maturity, rate, price, redemption, frequency, "
+"[day_count_convention])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:364
 msgid ""
 "`Excel YIELD article <https://support.microsoft.com/office/yield-function-"
 "f5f5ca43-c4bd-434f-8bd2-ed3c9727a4fe>`_"
 msgstr ""
+"`Excel YIELD maqolasi <https://support.microsoft.com/office/yield-function-"
+"f5f5ca43-c4bd-434f-8bd2-ed3c9727a4fe>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:365
 msgid ""
 "YIELDDISC(settlement, maturity, price, redemption, [day_count_convention])"
 msgstr ""
+"YIELDDISC(settlement, maturity, price, redemption, [day_count_convention])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:366
 msgid ""
 "`Excel YIELDDISC article <https://support.microsoft.com/office/yielddisc-"
 "function-a9dbdbae-7dae-46de-b995-615faffaaed7>`_"
 msgstr ""
+"`Excel YIELDDISC maqolasi <https://support.microsoft.com/office/yielddisc-"
+"function-a9dbdbae-7dae-46de-b995-615faffaaed7>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:367
 msgid ""
 "YIELDMAT(settlement, maturity, issue, rate, price, [day_count_convention])"
 msgstr ""
+"YIELDMAT(settlement, maturity, issue, rate, price, [day_count_convention])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:368
 msgid ""
 "`Excel YIELDMAT article <https://support.microsoft.com/office/yieldmat-"
 "function-ba7d1809-0d33-4bcb-96c7-6c56ec62ef6f>`_"
 msgstr ""
+"`Excel YIELDMAT maqolasi <https://support.microsoft.com/office/yieldmat-"
+"function-ba7d1809-0d33-4bcb-96c7-6c56ec62ef6f>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:373
 msgid "Info"
-msgstr ""
+msgstr "Ma'lumot"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:381
 msgid "CELL(info_type, reference)"
-msgstr ""
+msgstr "CELL(info_type, reference)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:382
 msgid ""
 "`Excel CELL article <https://support.microsoft.com/office/cell-"
 "function-51bd39a5-f338-4dbe-a33f-955d67c2b2cf>`_"
 msgstr ""
+"`Excel CELL maqolasi <https://support.microsoft.com/office/cell-"
+"function-51bd39a5-f338-4dbe-a33f-955d67c2b2cf>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:383
 msgid "ISBLANK(value)"
-msgstr ""
+msgstr "ISBLANK(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:384
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:386
@@ -35760,255 +35840,301 @@ msgid ""
 "`Excel IS article <https://support.microsoft.com/office/is-"
 "functions-0f2d7971-6019-40a0-a171-f2d869135665>`_"
 msgstr ""
+"`Excel IS maqolasi <https://support.microsoft.com/office/is-"
+"functions-0f2d7971-6019-40a0-a171-f2d869135665>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:385
 msgid "ISERR(value)"
-msgstr ""
+msgstr "ISERR(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:387
 msgid "ISERROR(value)"
-msgstr ""
+msgstr "ISERROR(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:389
 msgid "ISLOGICAL(value)"
-msgstr ""
+msgstr "ISLOGICAL(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:391
 msgid "ISNA(value)"
-msgstr ""
+msgstr "ISNA(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:393
 msgid "ISNONTEXT(value)"
-msgstr ""
+msgstr "ISNONTEXT(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:395
 msgid "ISNUMBER(value)"
-msgstr ""
+msgstr "ISNUMBER(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:397
 msgid "ISTEXT(value)"
-msgstr ""
+msgstr "ISTEXT(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:399
 msgid "NA()"
-msgstr ""
+msgstr "NA()"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:400
 msgid ""
 "`Excel NA article <https://support.microsoft.com/office/na-function-5469c2d1-"
 "a90c-4fb5-9bbc-64bd9bb6b47c>`_"
 msgstr ""
+"`Excel NA maqolasi <https://support.microsoft.com/office/na-"
+"function-5469c2d1-a90c-4fb5-9bbc-64bd9bb6b47c>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:405
 msgid "Logical"
-msgstr ""
+msgstr "Mantiqiy"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:413
 msgid "AND(logical_expression1, [logical_expression2, ...])"
-msgstr ""
+msgstr "AND(logical_expression1, [logical_expression2, ...])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:414
 msgid ""
 "`Excel AND article <https://support.microsoft.com/office/and-"
 "function-5f19b2e8-e1df-4408-897a-ce285a19e9d9>`_"
 msgstr ""
+"`Excel AND maqolasi <https://support.microsoft.com/office/and-"
+"function-5f19b2e8-e1df-4408-897a-ce285a19e9d9>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:415
 msgid "FALSE()"
-msgstr ""
+msgstr "FALSE()"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:416
 msgid ""
 "`Excel FALSE article <https://support.microsoft.com/office/false-"
 "function-2d58dfa5-9c03-4259-bf8f-f0ae14346904>`_"
 msgstr ""
+"`Excel FALSE maqolasi <https://support.microsoft.com/office/false-"
+"function-2d58dfa5-9c03-4259-bf8f-f0ae14346904>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:417
 msgid "IF(logical_expression, value_if_true, [value_if_false])"
-msgstr ""
+msgstr "IF(logical_expression, value_if_true, [value_if_false])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:418
 msgid ""
 "`Excel IF article <https://support.microsoft.com/office/if-"
 "function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2>`_"
 msgstr ""
+"`Excel IF maqolasi <https://support.microsoft.com/office/if-"
+"function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:419
 msgid "IFERROR(value, [value_if_error])"
-msgstr ""
+msgstr "IFERROR(value, [value_if_error])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:420
 msgid ""
 "`Excel IFERROR article <https://support.microsoft.com/office/iferror-"
 "function-c526fd07-caeb-47b8-8bb6-63f3e417f611>`_"
 msgstr ""
+"`Excel IFERROR maqolasi <https://support.microsoft.com/office/iferror-"
+"function-c526fd07-caeb-47b8-8bb6-63f3e417f611>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:421
 msgid "IFNA(value, [value_if_error])"
-msgstr ""
+msgstr "IFNA(value, [value_if_error])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:422
 msgid ""
 "`Excel IFNA article <https://support.microsoft.com/office/ifna-"
 "function-6626c961-a569-42fc-a49d-79b4951fd461>`_"
 msgstr ""
+"`Excel IFNA maqolasi <https://support.microsoft.com/office/ifna-"
+"function-6626c961-a569-42fc-a49d-79b4951fd461>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:423
 msgid "IFS(condition1, value1, [condition2, ...], [value2, ...])"
-msgstr ""
+msgstr "IFS(condition1, value1, [condition2, ...], [value2, ...])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:424
 msgid ""
 "`Excel IFS article <https://support.microsoft.com/office/ifs-"
 "function-36329a26-37b2-467c-972b-4a39bd951d45>`_"
 msgstr ""
+"`Excel IFS maqolasi <https://support.microsoft.com/office/ifs-"
+"function-36329a26-37b2-467c-972b-4a39bd951d45>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:425
 msgid "NOT(logical_expression)"
-msgstr ""
+msgstr "NOT(logical_expression)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:426
 msgid ""
 "`Excel NOT article <https://support.microsoft.com/office/not-"
 "function-9cfc6011-a054-40c7-a140-cd4ba2d87d77>`_"
 msgstr ""
+"`Excel NOT maqolasi <https://support.microsoft.com/office/not-"
+"function-9cfc6011-a054-40c7-a140-cd4ba2d87d77>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:427
 msgid "OR(logical_expression1, [logical_expression2, ...])"
-msgstr ""
+msgstr "OR(logical_expression1, [logical_expression2, ...])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:428
 msgid ""
 "`Excel OR article <https://support.microsoft.com/office/or-"
 "function-7d17ad14-8700-4281-b308-00b131e22af0>`_"
 msgstr ""
+"`Excel OR maqolasi <https://support.microsoft.com/office/or-"
+"function-7d17ad14-8700-4281-b308-00b131e22af0>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:429
 msgid ""
 "SWITCH(expression, case1, value1, [case2, ...], [value2, ...], [default])"
 msgstr ""
+"SWITCH(expression, case1, value1, [case2, ...], [value2, ...], [default])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:430
 msgid ""
 "`Excel SWITCH article <https://support.microsoft.com/office/switch-"
 "function-47ab33c0-28ce-4530-8a45-d532ec4aa25e>`_"
 msgstr ""
+"`Excel SWITCH maqolasi <https://support.microsoft.com/office/switch-"
+"function-47ab33c0-28ce-4530-8a45-d532ec4aa25e>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:431
 msgid "TRUE()"
-msgstr ""
+msgstr "TRUE()"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:432
 msgid ""
 "`Excel TRUE article <https://support.microsoft.com/office/true-"
 "function-7652c6e3-8987-48d0-97cd-ef223246b3fb>`_"
 msgstr ""
+"`Excel TRUE maqolasi <https://support.microsoft.com/office/true-"
+"function-7652c6e3-8987-48d0-97cd-ef223246b3fb>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:433
 msgid "XOR(logical_expression1, [logical_expression2, ...])"
-msgstr ""
+msgstr "XOR(logical_expression1, [logical_expression2, ...])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:434
 msgid ""
 "`Excel XOR article <https://support.microsoft.com/office/xor-"
 "function-1548d4c2-5e47-4f77-9a92-0533bba14f37>`_"
 msgstr ""
+"`Excel XOR maqolasi <https://support.microsoft.com/office/xor-"
+"function-1548d4c2-5e47-4f77-9a92-0533bba14f37>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:439
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:949
 msgid "Lookup"
-msgstr ""
+msgstr "Qidiruv"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:447
 msgid ""
 "ADDRESS(row, column, [absolute_relative_mode], [use_a1_notation], [sheet])"
 msgstr ""
+"ADDRESS(row, column, [absolute_relative_mode], [use_a1_notation], [sheet])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:448
 msgid ""
 "`Excel ADDRESS article <https://support.microsoft.com/office/address-"
 "function-d0c26c0d-3991-446b-8de4-ab46431d4f89>`_"
 msgstr ""
+"`Excel ADDRESS maqolasi <https://support.microsoft.com/office/address-"
+"function-d0c26c0d-3991-446b-8de4-ab46431d4f89>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:449
 msgid "COLUMN([cell_reference])"
-msgstr ""
+msgstr "COLUMN([cell_reference])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:450
 msgid ""
 "`Excel COLUMN article <https://support.microsoft.com/office/column-"
 "function-44e8c754-711c-4df3-9da4-47a55042554b>`_"
 msgstr ""
+"`Excel COLUMN maqolasi <https://support.microsoft.com/office/column-"
+"function-44e8c754-711c-4df3-9da4-47a55042554b>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:451
 msgid "COLUMNS(range)"
-msgstr ""
+msgstr "COLUMNS(range)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:452
 msgid ""
 "`Excel COLUMNS article <https://support.microsoft.com/office/columns-"
 "function-4e8e7b4e-e603-43e8-b177-956088fa48ca>`_"
 msgstr ""
+"`Excel COLUMNS maqolasi <https://support.microsoft.com/office/columns-"
+"function-4e8e7b4e-e603-43e8-b177-956088fa48ca>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:453
 msgid "HLOOKUP(search_key, range, index, [is_sorted])"
-msgstr ""
+msgstr "HLOOKUP(search_key, range, index, [is_sorted])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:454
 msgid ""
 "`Excel HLOOKUP article <https://support.microsoft.com/office/hlookup-"
 "function-a3034eec-b719-4ba3-bb65-e1ad662ed95f>`_"
 msgstr ""
+"`Excel HLOOKUP maqolasi <https://support.microsoft.com/office/hlookup-"
+"function-a3034eec-b719-4ba3-bb65-e1ad662ed95f>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:455
 msgid "INDEX(reference, row, column)"
-msgstr ""
+msgstr "INDEX(reference, row, column)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:456
 msgid ""
 "`Excel INDEX article <https://support.microsoft.com/office/index-function-"
 "a5dcf0dd-996d-40a4-a822-b56b061328bd>`_"
 msgstr ""
+"`Excel INDEX maqolasi <https://support.microsoft.com/office/index-function-"
+"a5dcf0dd-996d-40a4-a822-b56b061328bd>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:457
 msgid "INDIRECT(reference, [use_a1_notation])"
-msgstr ""
+msgstr "INDIRECT(reference, [use_a1_notation])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:458
 msgid ""
 "`Excel INDIRECT article <https://support.microsoft.com/office/indirect-"
 "function-474b3a3a-8a26-4f44-b491-92b6306fa261>`_"
 msgstr ""
+"`Excel INDIRECT maqolasi <https://support.microsoft.com/office/indirect-"
+"function-474b3a3a-8a26-4f44-b491-92b6306fa261>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:459
 msgid "LOOKUP(search_key, search_array, [result_range])"
-msgstr ""
+msgstr "LOOKUP(search_key, search_array, [result_range])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:460
 msgid ""
 "`Excel LOOKUP article <https://support.microsoft.com/office/lookup-"
 "function-446d94af-663b-451d-8251-369d5e3864cb>`_"
 msgstr ""
+"`Excel LOOKUP maqolasi <https://support.microsoft.com/office/lookup-"
+"function-446d94af-663b-451d-8251-369d5e3864cb>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:461
 msgid "MATCH(search_key, range, [search_type])"
-msgstr ""
+msgstr "MATCH(search_key, range, [search_type])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:462
 msgid ""
 "`Excel MATCH article <https://support.microsoft.com/office/match-function-"
 "e8dffd45-c762-47d6-bf89-533f4a37673a>`_"
 msgstr ""
+"`Excel MATCH maqolasi <https://support.microsoft.com/office/match-function-"
+"e8dffd45-c762-47d6-bf89-533f4a37673a>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:463
 msgid "OFFSET(reference, rows, cols, [height], [width])"
-msgstr ""
+msgstr "OFFSET(reference, rows, cols, [height], [width])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:464
 msgid ""
 "`Excel OFFSET article <https://support.microsoft.com/office/offset-function-"
 "c8de19ae-dd79-4b9b-a14e-b4d906d11b66>`_"
 msgstr ""
+"`Excel OFFSET maqolasi <https://support.microsoft.com/office/offset-function-"
+"c8de19ae-dd79-4b9b-a14e-b4d906d11b66>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:465
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:957
@@ -36016,21 +36142,23 @@ msgid ""
 "PIVOT(pivot_id, [row_count], [include_total], [include_column_titles], "
 "[column_count])"
 msgstr ""
+"PIVOT(pivot_id, [row_count], [include_total], [include_column_titles], "
+"[column_count])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:466
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:958
 msgid "Creates a pivot table (not compatible with Excel)"
-msgstr ""
+msgstr "Pivot jadval yaratadi (Excel bilan mos emas)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:467
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:959
 msgid "PIVOT.HEADER(pivot_id, [domain_field_name, ...], [domain_value, ...])"
-msgstr ""
+msgstr "PIVOT.HEADER(pivot_id, [domain_field_name, ...], [domain_value, ...])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:468
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:960
 msgid "Returns the header of a pivot table (not compatible with Excel)"
-msgstr ""
+msgstr "Pivot jadvalning sarlavhasini qaytaradi (Excel bilan mos emas)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:469
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:961
@@ -36038,390 +36166,470 @@ msgid ""
 "PIVOT.VALUE(pivot_id, measure_name, [domain_field_name, ...], "
 "[domain_value, ...])"
 msgstr ""
+"PIVOT.VALUE(pivot_id, measure_name, [domain_field_name, ...], "
+"[domain_value, ...])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:470
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:962
 msgid "Returns the value from a pivot table (not compatible with Excel)"
-msgstr ""
+msgstr "Pivot jadvaldan qiymatni qaytaradi (Excel bilan mos emas)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:471
 msgid "ROW([cell_reference])"
-msgstr ""
+msgstr "ROW([cell_reference])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:472
 msgid ""
 "`Excel ROW article <https://support.microsoft.com/office/row-"
 "function-3a63b74a-c4d0-4093-b49a-e76eb49a6d8d>`_"
 msgstr ""
+"`Excel ROW maqolasi <https://support.microsoft.com/office/row-"
+"function-3a63b74a-c4d0-4093-b49a-e76eb49a6d8d>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:473
 msgid "ROWS(range)"
-msgstr ""
+msgstr "ROWS(range)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:474
 msgid ""
 "`Excel ROWS article <https://support.microsoft.com/office/rows-function-"
 "b592593e-3fc2-47f2-bec1-bda493811597>`_"
 msgstr ""
+"`Excel ROWS maqolasi <https://support.microsoft.com/office/rows-function-"
+"b592593e-3fc2-47f2-bec1-bda493811597>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:475
 msgid "VLOOKUP(search_key, range, index, [is_sorted])"
-msgstr ""
+msgstr "VLOOKUP(search_key, range, index, [is_sorted])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:476
 msgid ""
 "`Excel VLOOKUP article <https://support.microsoft.com/office/vlookup-"
 "function-0bbc8083-26fe-4963-8ab8-93a18ad188a1>`_"
 msgstr ""
+"`Excel VLOOKUP maqolasi <https://support.microsoft.com/office/vlookup-"
+"function-0bbc8083-26fe-4963-8ab8-93a18ad188a1>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:477
 msgid ""
 "XLOOKUP(search_key, lookup_range, return_range, [if_not_found], "
 "[match_mode], [search_mode])"
 msgstr ""
+"XLOOKUP(search_key, lookup_range, return_range, [if_not_found], "
+"[match_mode], [search_mode])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:478
 msgid ""
 "`Excel XLOOKUP article <https://support.microsoft.com/office/xlookup-"
 "function-b7fd680e-6d10-43e6-84f9-88eae8bf5929>`_"
 msgstr ""
+"`Excel XLOOKUP maqolasi <https://support.microsoft.com/office/xlookup-"
+"function-b7fd680e-6d10-43e6-84f9-88eae8bf5929>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:483
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:965
 msgid "Math"
-msgstr ""
+msgstr "Matematika"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:491
 msgid "ABS(value)"
-msgstr ""
+msgstr "ABS(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:492
 msgid ""
 "`Excel ABS article <https://support.microsoft.com/office/abs-"
 "function-3420200f-5628-4e8c-99da-c99d7c87713c>`_"
 msgstr ""
+"`Excel ABS maqolasi <https://support.microsoft.com/office/abs-"
+"function-3420200f-5628-4e8c-99da-c99d7c87713c>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:493
 msgid "ACOS(value)"
-msgstr ""
+msgstr "ACOS(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:494
 msgid ""
 "`Excel ACOS article <https://support.microsoft.com/office/acos-function-"
 "cb73173f-d089-4582-afa1-76e5524b5d5b>`_"
 msgstr ""
+"`Excel ACOS maqolasi <https://support.microsoft.com/office/acos-function-"
+"cb73173f-d089-4582-afa1-76e5524b5d5b>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:495
 msgid "ACOSH(value)"
-msgstr ""
+msgstr "ACOSH(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:496
 msgid ""
 "`Excel ACOSH article <https://support.microsoft.com/office/acosh-function-"
 "e3992cc1-103f-4e72-9f04-624b9ef5ebfe>`_"
 msgstr ""
+"`Excel ACOSH maqolasi <https://support.microsoft.com/office/acosh-function-"
+"e3992cc1-103f-4e72-9f04-624b9ef5ebfe>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:497
 msgid "ACOT(value)"
-msgstr ""
+msgstr "ACOT(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:498
 msgid ""
 "`Excel ACOT article <https://support.microsoft.com/office/acot-function-"
 "dc7e5008-fe6b-402e-bdd6-2eea8383d905>`_"
 msgstr ""
+"`Excel ACOT maqolasi <https://support.microsoft.com/office/acot-function-"
+"dc7e5008-fe6b-402e-bdd6-2eea8383d905>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:499
 msgid "ACOTH(value)"
-msgstr ""
+msgstr "ACOTH(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:500
 msgid ""
 "`Excel ACOTH article <https://support.microsoft.com/office/acoth-function-"
 "cc49480f-f684-4171-9fc5-73e4e852300f>`_"
 msgstr ""
+"`Excel ACOTH maqolasi <https://support.microsoft.com/office/acoth-function-"
+"cc49480f-f684-4171-9fc5-73e4e852300f>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:501
 msgid "ASIN(value)"
-msgstr ""
+msgstr "ASIN(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:502
 msgid ""
 "`Excel ASIN article <https://support.microsoft.com/office/asin-"
 "function-81fb95e5-6d6f-48c4-bc45-58f955c6d347>`_"
 msgstr ""
+"`Excel ASIN maqolasi <https://support.microsoft.com/office/asin-"
+"function-81fb95e5-6d6f-48c4-bc45-58f955c6d347>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:503
 msgid "ASINH(value)"
-msgstr ""
+msgstr "ASINH(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:504
 msgid ""
 "`Excel ASINH article <https://support.microsoft.com/office/asinh-"
 "function-4e00475a-067a-43cf-926a-765b0249717c>`_"
 msgstr ""
+"`Excel ASINH maqolasi <https://support.microsoft.com/office/asinh-"
+"function-4e00475a-067a-43cf-926a-765b0249717c>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:505
 msgid "ATAN(value)"
-msgstr ""
+msgstr "ATAN(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:506
 msgid ""
 "`Excel ATAN article <https://support.microsoft.com/office/atan-"
 "function-50746fa8-630a-406b-81d0-4a2aed395543>`_"
 msgstr ""
+"`Excel ATAN maqolasi <https://support.microsoft.com/office/atan-"
+"function-50746fa8-630a-406b-81d0-4a2aed395543>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:507
 msgid "ATAN2(x, y)"
-msgstr ""
+msgstr "ATAN2(x, y)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:508
 msgid ""
 "`Excel ATAN2 article <https://support.microsoft.com/office/atan2-function-"
 "c04592ab-b9e3-4908-b428-c96b3a565033>`_"
 msgstr ""
+"`Excel ATAN2 maqolasi <https://support.microsoft.com/office/atan2-function-"
+"c04592ab-b9e3-4908-b428-c96b3a565033>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:509
 msgid "ATANH(value)"
-msgstr ""
+msgstr "ATANH(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:510
 msgid ""
 "`Excel ATANH article <https://support.microsoft.com/office/atanh-"
 "function-3cd65768-0de7-4f1d-b312-d01c8c930d90>`_"
 msgstr ""
+"`Excel ATANH maqolasi <https://support.microsoft.com/office/atanh-"
+"function-3cd65768-0de7-4f1d-b312-d01c8c930d90>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:511
 msgid "CEILING(value, [factor])"
-msgstr ""
+msgstr "CEILING(value, [factor])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:512
 msgid ""
 "`Excel CEILING article <https://support.microsoft.com/office/ceiling-"
 "function-0a5cd7c8-0720-4f0a-bd2c-c943e510899f>`_"
 msgstr ""
+"`Excel CEILING maqolasi <https://support.microsoft.com/office/ceiling-"
+"function-0a5cd7c8-0720-4f0a-bd2c-c943e510899f>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:513
 msgid "CEILING.MATH(number, [significance], [mode])"
-msgstr ""
+msgstr "CEILING.MATH(number, [significance], [mode])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:514
 msgid ""
 "`Excel CEILING.MATH article <https://support.microsoft.com/office/ceiling-"
 "math-function-80f95d2f-b499-4eee-9f16-f795a8e306c8>`_"
 msgstr ""
+"`Excel CEILING.MATH maqolasi <https://support.microsoft.com/office/ceiling-"
+"math-function-80f95d2f-b499-4eee-9f16-f795a8e306c8>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:515
 msgid "CEILING.PRECISE(number, [significance])"
-msgstr ""
+msgstr "CEILING.PRECISE(number, [significance])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:516
 msgid ""
 "`Excel CEILING.PRECISE article <https://support.microsoft.com/office/ceiling-"
 "precise-function-f366a774-527a-4c92-ba49-af0a196e66cb>`_"
 msgstr ""
+"`Excel CEILING.PRECISE maqolasi <https://support.microsoft.com/office/"
+"ceiling-precise-function-f366a774-527a-4c92-ba49-af0a196e66cb>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:517
 msgid "COS(angle)"
-msgstr ""
+msgstr "COS(angle)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:518
 msgid ""
 "`Excel COS article <https://support.microsoft.com/office/cos-"
 "function-0fb808a5-95d6-4553-8148-22aebdce5f05>`_"
 msgstr ""
+"`Excel COS maqolasi <https://support.microsoft.com/office/cos-"
+"function-0fb808a5-95d6-4553-8148-22aebdce5f05>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:519
 msgid "COSH(value)"
-msgstr ""
+msgstr "COSH(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:520
 msgid ""
 "`Excel COSH article <https://support.microsoft.com/office/cosh-function-"
 "e460d426-c471-43e8-9540-a57ff3b70555>`_"
 msgstr ""
+"`Excel COSH maqolasi <https://support.microsoft.com/office/cosh-function-"
+"e460d426-c471-43e8-9540-a57ff3b70555>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:521
 msgid "COT(angle)"
-msgstr ""
+msgstr "COT(angle)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:522
 msgid ""
 "`Excel COT article <https://support.microsoft.com/office/cot-function-"
 "c446f34d-6fe4-40dc-84f8-cf59e5f5e31a>`_"
 msgstr ""
+"`Excel COT maqolasi <https://support.microsoft.com/office/cot-function-"
+"c446f34d-6fe4-40dc-84f8-cf59e5f5e31a>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:523
 msgid "COTH(value)"
-msgstr ""
+msgstr "COTH(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:524
 msgid ""
 "`Excel COTH article <https://support.microsoft.com/office/coth-"
 "function-2e0b4cb6-0ba0-403e-aed4-deaa71b49df5>`_"
 msgstr ""
+"`Excel COTH maqolasi <https://support.microsoft.com/office/coth-"
+"function-2e0b4cb6-0ba0-403e-aed4-deaa71b49df5>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:525
 msgid "COUNTBLANK(value1, [value2, ...])"
-msgstr ""
+msgstr "COUNTBLANK(value1, [value2, ...])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:526
 msgid ""
 "`Excel COUNTBLANK article <https://support.microsoft.com/office/countblank-"
 "function-6a92d772-675c-4bee-b346-24af6bd3ac22>`_"
 msgstr ""
+"`Excel COUNTBLANK maqolasi <https://support.microsoft.com/office/countblank-"
+"function-6a92d772-675c-4bee-b346-24af6bd3ac22>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:527
 msgid "COUNTIF(range, criterion)"
-msgstr ""
+msgstr "COUNTIF(range, criterion)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:528
 msgid ""
 "`Excel COUNTIF article <https://support.microsoft.com/office/countif-"
 "function-e0de10c6-f885-4e71-abb4-1f464816df34>`_"
 msgstr ""
+"`Excel COUNTIF maqolasi <https://support.microsoft.com/office/countif-"
+"function-e0de10c6-f885-4e71-abb4-1f464816df34>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:529
 msgid ""
 "COUNTIFS(criteria_range1, criterion1, [criteria_range2, ...], "
 "[criterion2, ...])"
 msgstr ""
+"COUNTIFS(criteria_range1, criterion1, [criteria_range2, ...], "
+"[criterion2, ...])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:530
 msgid ""
 "`Excel COUNTIFS article <https://support.microsoft.com/office/countifs-"
 "function-dda3dc6e-f74e-4aee-88bc-aa8c2a866842>`_"
 msgstr ""
+"`Excel COUNTIFS maqolasi <https://support.microsoft.com/office/countifs-"
+"function-dda3dc6e-f74e-4aee-88bc-aa8c2a866842>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:531
 msgid "CSC(angle)"
-msgstr ""
+msgstr "CSC(angle)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:532
 msgid ""
 "`Excel CSC article <https://support.microsoft.com/office/csc-"
 "function-07379361-219a-4398-8675-07ddc4f135c1>`_"
 msgstr ""
+"`Excel CSC maqolasi <https://support.microsoft.com/office/csc-"
+"function-07379361-219a-4398-8675-07ddc4f135c1>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:533
 msgid "CSCH(value)"
-msgstr ""
+msgstr "CSCH(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:534
 msgid ""
 "`Excel CSCH article <https://support.microsoft.com/office/csch-function-"
 "f58f2c22-eb75-4dd6-84f4-a503527f8eeb>`_"
 msgstr ""
+"`Excel CSCH maqolasi <https://support.microsoft.com/office/csch-function-"
+"f58f2c22-eb75-4dd6-84f4-a503527f8eeb>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:535
 msgid "DECIMAL(value, base)"
-msgstr ""
+msgstr "DECIMAL(value, base)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:536
 msgid ""
 "`Excel DECIMAL article <https://support.microsoft.com/office/decimal-"
 "function-ee554665-6176-46ef-82de-0a283658da2e>`_"
 msgstr ""
+"`Excel DECIMAL maqolasi <https://support.microsoft.com/office/decimal-"
+"function-ee554665-6176-46ef-82de-0a283658da2e>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:537
 msgid "DEGREES(angle)"
-msgstr ""
+msgstr "DEGREES(angle)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:538
 msgid ""
 "`Excel DEGREES article <https://support.microsoft.com/office/degrees-"
 "function-4d6ec4db-e694-4b94-ace0-1cc3f61f9ba1>`_"
 msgstr ""
+"`Excel DEGREES maqolasi <https://support.microsoft.com/office/degrees-"
+"function-4d6ec4db-e694-4b94-ace0-1cc3f61f9ba1>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:539
 msgid "EXP(value)"
-msgstr ""
+msgstr "EXP(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:540
 msgid ""
 "`Excel EXP article <https://support.microsoft.com/office/exp-function-"
 "c578f034-2c45-4c37-bc8c-329660a63abe>`_"
 msgstr ""
+"`Excel EXP maqolasi <https://support.microsoft.com/office/exp-function-"
+"c578f034-2c45-4c37-bc8c-329660a63abe>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:541
 msgid "FLOOR(value, [factor])"
-msgstr ""
+msgstr "FLOOR(value, [factor])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:542
 msgid ""
 "`Excel FLOOR article <https://support.microsoft.com/office/floor-"
 "function-14bb497c-24f2-4e04-b327-b0b4de5a8886>`_"
 msgstr ""
+"`Excel FLOOR maqolasi <https://support.microsoft.com/office/floor-"
+"function-14bb497c-24f2-4e04-b327-b0b4de5a8886>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:543
 msgid "FLOOR.MATH(number, [significance], [mode])"
-msgstr ""
+msgstr "FLOOR.MATH(number, [significance], [mode])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:544
 msgid ""
 "`Excel FLOOR.MATH article <https://support.microsoft.com/office/floor-math-"
 "function-c302b599-fbdb-4177-ba19-2c2b1249a2f5>`_"
 msgstr ""
+"`Excel FLOOR.MATH maqolasi <https://support.microsoft.com/office/floor-math-"
+"function-c302b599-fbdb-4177-ba19-2c2b1249a2f5>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:545
 msgid "FLOOR.PRECISE(number, [significance])"
-msgstr ""
+msgstr "FLOOR.PRECISE(number, [significance])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:546
 msgid ""
 "`Excel FLOOR.PRECISE article <https://support.microsoft.com/office/floor-"
 "precise-function-f769b468-1452-4617-8dc3-02f842a0702e>`_"
 msgstr ""
+"`Excel FLOOR.PRECISE maqolasi <https://support.microsoft.com/office/floor-"
+"precise-function-f769b468-1452-4617-8dc3-02f842a0702e>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:547
 msgid "INT(value)"
-msgstr ""
+msgstr "INT(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:548
 msgid ""
 "`Excel INT article <https://support.microsoft.com/office/int-function-"
 "a6c4af9e-356d-4369-ab6a-cb1fd9d343ef>`_"
 msgstr ""
+"`Excel INT maqolasi <https://support.microsoft.com/office/int-function-"
+"a6c4af9e-356d-4369-ab6a-cb1fd9d343ef>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:549
 msgid "ISEVEN(value)"
-msgstr ""
+msgstr "ISEVEN(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:550
 msgid ""
 "`Excel ISEVEN article <https://support.microsoft.com/office/iseven-function-"
 "aa15929a-d77b-4fbb-92f4-2f479af55356>`_"
 msgstr ""
+"`Excel ISEVEN maqolasi <https://support.microsoft.com/office/iseven-function-"
+"aa15929a-d77b-4fbb-92f4-2f479af55356>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:551
 msgid "ISO.CEILING(number, [significance])"
-msgstr ""
+msgstr "ISO.CEILING(number, [significance])"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:552
 msgid ""
 "`Excel ISO.CEILING article <https://support.microsoft.com/office/iso-ceiling-"
 "function-e587bb73-6cc2-4113-b664-ff5b09859a83>`_"
 msgstr ""
+"`Excel ISO.CEILING maqolasi <https://support.microsoft.com/office/iso-"
+"ceiling-function-e587bb73-6cc2-4113-b664-ff5b09859a83>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:553
 msgid "ISODD(value)"
-msgstr ""
+msgstr "ISODD(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:554
 msgid ""
 "`Excel ISODD article <https://support.microsoft.com/office/isodd-"
 "function-1208a56d-4f10-4f44-a5fc-648cafd6c07a>`_"
 msgstr ""
+"`Excel ISODD maqolasi <https://support.microsoft.com/office/isodd-"
+"function-1208a56d-4f10-4f44-a5fc-648cafd6c07a>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:555
 msgid "LN(value)"
-msgstr ""
+msgstr "LN(value)"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:556
 msgid ""
 "`Excel LN article <https://support.microsoft.com/office/ln-function-81fe1ed7-"
 "dac9-4acd-ba1d-07a142c6118f>`_"
 msgstr ""
+"`Excel LN maqolasi <https://support.microsoft.com/office/ln-"
+"function-81fe1ed7-dac9-4acd-ba1d-07a142c6118f>`_"
 
 #: ../../content/applications/productivity/spreadsheet/work_with_data/functions.rst:557
 msgid "LOG(value, [base])"
