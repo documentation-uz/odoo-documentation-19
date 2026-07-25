@@ -18,7 +18,7 @@ msgstr ""
 
 #: ../../content/developer.rst:6
 msgid "Developer"
-msgstr ""
+msgstr "Dasturchi"
 
 #: ../../content/developer.rst:13
 msgid ""
@@ -28,6 +28,11 @@ msgid ""
 "our extensive collection of tutorials, how-to guides, and reference "
 "materials to achieve your development goals."
 msgstr ""
+"Odoo dasturchi hujjatlariga xush kelibsiz! Tajribali dasturchi bo'lasizmi "
+"yoki endi boshlayapsizmi, bu yerda Odoo ilovalarini ishlab chiqish uchun "
+"zarur bo'lgan barcha texnik ko'rsatmalar va resurslarni topasiz. Ishlab "
+"chiqish maqsadlaringizga erishish uchun bizning keng qamrovli qo'llanmalar, "
+"how-to guide'lar va ma'lumotnoma materiallari to'plamimizni o'rganing."
 
 #: ../../content/developer.rst:18
 msgid ""
@@ -38,70 +43,83 @@ msgid ""
 "application up and running quickly, without needing to reinvent the wheel "
 "and worry about the underlying infrastructure."
 msgstr ""
+"Odoo ishlab chiqish ekotizimi modulli va kengaytiriluvchan arxitekturaga "
+"asoslangan bo'lib, u sizga mavjud ilovalarni kengaytirish yoki zamonaviy "
+"biznesning aniq ehtiyojlariga javob beradigan yangilarini yaratish imkonini "
+"beradi. Odoo taqdim etadigan vositalar va framework'lardan foydalanib, "
+"g'ildirakni qaytadan ixtiro qilmasdan va asosiy infratuzilma haqida "
+"qayg'urmasdan, web ilovangizni tezda ishga tushirishga e'tibor qaratishingiz "
+"mumkin."
 
 #: ../../content/developer.rst:24
 msgid ""
 "If you are new to Odoo or web application development, start with "
 "the :doc:`developer/tutorials/server_framework_101` tutorial."
 msgstr ""
+"Agar siz Odoo yoki web ilovalarni ishlab chiqishda yangi "
+"bo'lsangiz, :doc:`developer/tutorials/server_framework_101` qo'llanmasidan "
+"boshlang."
 
-#: ../../content/developer.rst:29
-#: ../../content/developer/tutorials.rst:6
+#: ../../content/developer.rst:29 ../../content/developer/tutorials.rst:6
 msgid "Tutorials"
-msgstr ""
+msgstr "Qo'llanmalar"
 
 #: ../../content/developer.rst:29
 msgid ""
 "Tutorials take you by the hand through hands-on exercises to build skills "
 "and familiarity in Odoo development."
 msgstr ""
+"Qo'llanmalar sizni amaliy mashqlar orqali bosqichma-bosqich olib borib, Odoo "
+"ishlab chiqishda ko'nikma va tajriba shakllantiradi."
 
-#: ../../content/developer.rst:35
-#: ../../content/developer/howtos.rst:6
+#: ../../content/developer.rst:35 ../../content/developer/howtos.rst:6
 msgid "How-to guides"
-msgstr ""
+msgstr "How-to qo'llanmalar"
 
 #: ../../content/developer.rst:35
 msgid ""
 "Recipes that provide a step-by-step guide for addressing real-world problems "
 "and use-cases."
 msgstr ""
+"Real hayotdagi muammolar va foydalanish holatlarini hal qilish uchun "
+"bosqichma-bosqich yo'riqnoma beruvchi retseptlar."
 
-#: ../../content/developer.rst:40
-#: ../../content/developer/reference.rst:8
+#: ../../content/developer.rst:40 ../../content/developer/reference.rst:8
 #: ../../content/developer/reference/frontend/odoo_editor.rst:135
 msgid "Reference"
-msgstr ""
+msgstr "Ma'lumotnoma"
 
 #: ../../content/developer.rst:40
 msgid ""
 "Technical descriptions and factual information on the frameworks and APIs of "
 "Odoo."
 msgstr ""
+"Odoo framework'lari va API'lari haqida texnik tavsiflar va aniq ma'lumotlar."
 
 #: ../../content/developer.rst:46
 msgid ":doc:`Guide: Contribute to the codebase </contributing/development>`"
 msgstr ""
+":doc:`Qo'llanma: Kod bazasiga hissa qo'shish </contributing/development>`"
 
 #: ../../content/developer.rst:47
 msgid "`Community forums <https://www.odoo.com/forum>`_"
-msgstr ""
+msgstr "`Hamjamiyat forumlari <https://www.odoo.com/forum>`_"
 
 #: ../../content/developer/glossary.rst:5
 msgid "Glossary"
-msgstr ""
+msgstr "Lug'at"
 
 #: ../../content/developer/glossary.rst:8
 msgid "external id"
-msgstr ""
+msgstr "external id"
 
 #: ../../content/developer/glossary.rst:9
 msgid "external identifier"
-msgstr ""
+msgstr "external identifier"
 
 #: ../../content/developer/glossary.rst:10
 msgid "external identifiers"
-msgstr ""
+msgstr "external identifiers"
 
 #: ../../content/developer/glossary.rst:12
 msgid ""
@@ -109,6 +127,9 @@ msgid ""
 "record regardless of its database identifier during data imports or export/"
 "import roundtrips."
 msgstr ""
+"``ir.model.data`` da saqlanadigan satrli identifikator; ma'lumotlarni import "
+"qilishda yoki export/import sikllarida record'ga uning ma'lumotlar "
+"bazasidagi identifikatoridan qat'i nazar murojaat qilish uchun ishlatiladi."
 
 #: ../../content/developer/glossary.rst:16
 msgid ""
@@ -116,16 +137,21 @@ msgid ""
 "``account.invoice_graph``). From within a module, the :samp:`{module}.` "
 "prefix can be left out."
 msgstr ""
+"External identifier'lar :samp:`{module}.{id}` ko'rinishida bo'ladi (masalan "
+"``account.invoice_graph``). Module ichidan :samp:`{module}.` prefiksini "
+"tushirib qoldirish mumkin."
 
 #: ../../content/developer/glossary.rst:20
 msgid ""
 "Sometimes referred to as \"xml id\" or ``xml_id`` as XML-"
 "based :ref:`reference/data` make extensive use of them."
 msgstr ""
+"Ba'zan \"xml id\" yoki ``xml_id`` deb ataladi, chunki XML "
+"asosidagi :ref:`reference/data` ulardan keng foydalanadi."
 
 #: ../../content/developer/glossary.rst:22
 msgid "format string"
-msgstr ""
+msgstr "format string"
 
 #: ../../content/developer/glossary.rst:24
 msgid ""
@@ -134,28 +160,36 @@ msgid ""
 "and ``}}`` is interpreted as an expression and evaluated, other content is "
 "interpreted as literal strings and displayed as-is"
 msgstr ""
+"`jinja variables`_ dan ilhomlangan format string'lar literal kontent bilan "
+"hisoblanadigan kontentni (ifodalarni) osonroq aralashtirish imkonini beradi: "
+"``{{`` va ``}}`` orasidagi kontent ifoda sifatida talqin qilinib "
+"hisoblanadi, qolgan kontent esa literal satr sifatida talqin qilinib, o'z "
+"holicha ko'rsatiladi"
 
 #: ../../content/developer/glossary.rst:29
 msgid "GIS"
-msgstr ""
+msgstr "GIS"
 
 #: ../../content/developer/glossary.rst:30
 msgid "Geographic Information System"
-msgstr ""
+msgstr "Geographic Information System"
 
 #: ../../content/developer/glossary.rst:32
 msgid ""
 "any computer system or subsystem to capture, store, manipulate, analyze, "
 "manage or present spatial and geographical data."
 msgstr ""
+"fazoviy va geografik ma'lumotlarni yig'ish, saqlash, o'zgartirish, tahlil "
+"qilish, boshqarish yoki taqdim etish uchun mo'ljallangan har qanday "
+"kompyuter tizimi yoki quyi tizimi."
 
 #: ../../content/developer/glossary.rst:34
 msgid "minified"
-msgstr ""
+msgstr "minified"
 
 #: ../../content/developer/glossary.rst:35
 msgid "minification"
-msgstr ""
+msgstr "minification"
 
 #: ../../content/developer/glossary.rst:37
 msgid ""
@@ -164,153 +198,178 @@ msgid ""
 "structures (`ternary operator`_ instead of ``if/else``) in order to reduce "
 "network traffic"
 msgstr ""
+"tarmoq trafigini kamaytirish maqsadida fayllarning ortiqcha/keraksiz "
+"qismlarini (izohlar, bo'shliqlar) olib tashlash va ularni ekvivalent, ammo "
+"qisqaroq strukturalar yordamida qayta kompilyatsiya qilish jarayoni (``if/"
+"else`` o'rniga `ternary operator`_)"
 
 #: ../../content/developer/howtos.rst:26
 msgid "Frontend development"
-msgstr ""
+msgstr "Frontend ishlab chiqish"
 
 #: ../../content/developer/howtos.rst:30
 #: ../../content/developer/howtos/scss_tips.rst:3
 msgid "Write lean easy-to-maintain CSS"
-msgstr ""
+msgstr "Ixcham va oson qo'llab-quvvatlanadigan CSS yozish"
 
 #: ../../content/developer/howtos.rst:30
 msgid ""
 "Follow this guide to keep the technical debt of your CSS code under control."
 msgstr ""
+"CSS kodingizning texnik qarzini nazoratda ushlab turish uchun ushbu "
+"qo'llanmaga amal qiling."
 
 #: ../../content/developer/howtos.rst:35
 #: ../../content/developer/howtos/javascript_field.rst:4
 msgid "Customize a field"
-msgstr ""
+msgstr "Field'ni moslashtirish"
 
 #: ../../content/developer/howtos.rst:35
 msgid "Learn how to customize field components in the web framework."
 msgstr ""
+"Web framework'da field component'larini qanday moslashtirishni o'rganing."
 
 #: ../../content/developer/howtos.rst:40
 #: ../../content/developer/howtos/javascript_view.rst:3
 msgid "Customize a view type"
-msgstr ""
+msgstr "View turini moslashtirish"
 
 #: ../../content/developer/howtos.rst:40
 msgid "Learn how to customize view types in the web framework."
-msgstr ""
+msgstr "Web framework'da view turlarini qanday moslashtirishni o'rganing."
 
 #: ../../content/developer/howtos.rst:45
 #: ../../content/developer/howtos/javascript_client_action.rst:6
 msgid "Create a client action"
-msgstr ""
+msgstr "Client action yaratish"
 
 #: ../../content/developer/howtos.rst:45
 msgid "Learn how to create client actions in the web framework."
-msgstr ""
+msgstr "Web framework'da client action'larni qanday yaratishni o'rganing."
 
 #: ../../content/developer/howtos.rst:50
 #: ../../content/developer/howtos/standalone_owl_application.rst:3
 msgid "Create a standalone Owl application"
-msgstr ""
+msgstr "Mustaqil Owl ilovasini yaratish"
 
 #: ../../content/developer/howtos.rst:50
 msgid ""
 "Learn how to create a public-facing Owl application outside of the web "
 "client using a controller and the web framework."
 msgstr ""
+"Controller va web framework yordamida web client'dan tashqarida ommaga ochiq "
+"Owl ilovasini qanday yaratishni o'rganing."
 
 #: ../../content/developer/howtos.rst:56
 #: ../../content/developer/howtos/frontend_owl_components.rst:3
 msgid "Use Owl components on the portal and website"
-msgstr ""
+msgstr "Portal va website'da Owl component'laridan foydalanish"
 
 #: ../../content/developer/howtos.rst:56
 msgid "Learn how to use Owl components on the portal and website."
 msgstr ""
+"Portal va website'da Owl component'laridan qanday foydalanishni o'rganing."
 
 #: ../../content/developer/howtos.rst:61
 #: ../../content/developer/howtos/website_themes.rst:7
 msgid "Website themes"
-msgstr ""
+msgstr "Website mavzulari"
 
 #: ../../content/developer/howtos.rst:61
 msgid "Learn how to customize your website by creating a custom theme."
 msgstr ""
+"Maxsus mavzu yaratish orqali website'ingizni qanday moslashtirishni "
+"o'rganing."
 
 #: ../../content/developer/howtos.rst:67
 msgid "Server-side development"
-msgstr ""
+msgstr "Server tomonida ishlab chiqish"
 
 #: ../../content/developer/howtos.rst:71
 msgid "Multi-company guidelines"
-msgstr ""
+msgstr "Ko'p kompaniyali muhit bo'yicha ko'rsatmalar"
 
 #: ../../content/developer/howtos.rst:71
 msgid ""
 "Learn how to manage multiple companies and deal with the records-related "
 "specificities of a multi-company environment."
 msgstr ""
+"Bir nechta kompaniyani qanday boshqarishni va ko'p kompaniyali "
+"environment'ning record'larga oid o'ziga xosliklari bilan qanday ishlashni "
+"o'rganing."
 
 #: ../../content/developer/howtos.rst:77
 #: ../../content/developer/howtos/create_reports.rst:3
 msgid "Create customized reports"
-msgstr ""
+msgstr "Moslashtirilgan hisobotlar yaratish"
 
 #: ../../content/developer/howtos.rst:77
 msgid "Learn how to create customized reports with SQL Views."
 msgstr ""
+"SQL View'lar yordamida moslashtirilgan hisobotlarni qanday yaratishni "
+"o'rganing."
 
 #: ../../content/developer/howtos.rst:82
 #: ../../content/developer/howtos/accounting_localization.rst:4
 msgid "Accounting localization"
-msgstr ""
+msgstr "Buxgalteriya lokalizatsiyasi"
 
 #: ../../content/developer/howtos.rst:82
 msgid ""
 "Learn how to build a localization module, create bank operation models and "
 "dynamic reports."
 msgstr ""
+"Lokalizatsiya module'ini qanday qurishni, bank operatsiyalari model'larini "
+"va dinamik hisobotlarni qanday yaratishni o'rganing."
 
 #: ../../content/developer/howtos.rst:87
 msgid "Translating modules"
-msgstr ""
+msgstr "Module'larni tarjima qilish"
 
 #: ../../content/developer/howtos.rst:87
 msgid "Learn how to provide translation abilities to your module."
-msgstr ""
+msgstr "Module'ingizga tarjima imkoniyatlarini qanday qo'shishni o'rganing."
 
 #: ../../content/developer/howtos.rst:92
 #: ../../content/developer/howtos/connect_device.rst:3
 msgid "Connect with a device"
-msgstr ""
+msgstr "Qurilma bilan ulanish"
 
 #: ../../content/developer/howtos.rst:92
 msgid ""
 "Learn how to enable a module to detect and communicate with an IoT device."
 msgstr ""
+"Module'ga IoT qurilmasini aniqlash va u bilan aloqa qilish imkonini qanday "
+"berishni o'rganing."
 
 #: ../../content/developer/howtos.rst:98
 msgid "Custom development"
-msgstr ""
+msgstr "Maxsus ishlab chiqish"
 
 #: ../../content/developer/howtos.rst:102
 #: ../../content/developer/howtos/upgrade_custom_db.rst:3
 msgid "Upgrade a customized database"
-msgstr ""
+msgstr "Moslashtirilgan ma'lumotlar bazasini yangilash"
 
 #: ../../content/developer/howtos.rst:102
 msgid ""
 "Learn how to upgrade a customized database, as well as the code and data of "
 "its custom modules."
 msgstr ""
+"Moslashtirilgan ma'lumotlar bazasini, shuningdek uning maxsus module'lari "
+"kodi va ma'lumotlarini qanday yangilashni o'rganing."
 
 #: ../../content/developer/howtos/accounting_localization.rst:8
 msgid ""
 "This tutorial requires knowledge about how to build a module in Odoo "
 "(see :doc:`../tutorials/server_framework_101`)."
 msgstr ""
+"Ushbu qo'llanma Odoo'da module qanday qurilishi haqida bilim talab qiladi "
+"(qarang :doc:`../tutorials/server_framework_101`)."
 
 #: ../../content/developer/howtos/accounting_localization.rst:13
 msgid "Installation procedure"
-msgstr ""
+msgstr "O'rnatish tartibi"
 
 #: ../../content/developer/howtos/accounting_localization.rst:15
 msgid ""
@@ -322,56 +381,74 @@ msgid ""
 "installed by default. Check `post init hook <https://github.com/odoo/odoo/"
 "blob/19.0/addons/account/__init__.py>`_ for details."
 msgstr ""
+"`account <https://github.com/odoo/odoo/blob/19.0/addons/account>`_ module'i "
+"o'rnatilganda, kompaniyaning davlat kodiga mos keluvchi lokalizatsiya "
+"module'i avtomatik ravishda o'rnatiladi. Agar davlat kodi belgilanmagan yoki "
+"mos lokalizatsiya module'i topilmasa, sukut bo'yicha `l10n_generic_coa "
+"<https://github.com/odoo/odoo/blob/19.0/addons/l10n_generic_coa>`_ (US) "
+"lokalizatsiya module'i o'rnatiladi. Tafsilotlar uchun `post init hook "
+"<https://github.com/odoo/odoo/blob/19.0/addons/account/__init__.py>`_ ni "
+"ko'ring."
 
 #: ../../content/developer/howtos/accounting_localization.rst:19
 msgid ""
 "For example, `l10n_ch <https://github.com/odoo/odoo/blob/19.0/addons/"
 "l10n_ch>`_ will be installed if the company has ``Switzerland`` as country."
 msgstr ""
+"Masalan, agar kompaniyaning davlati ``Switzerland`` bo'lsa, `l10n_ch "
+"<https://github.com/odoo/odoo/blob/19.0/addons/l10n_ch>`_ o'rnatiladi."
 
 #: ../../content/developer/howtos/accounting_localization.rst:22
 msgid "Building a localization module"
-msgstr ""
+msgstr "Localization module yaratish"
 
 #: ../../content/developer/howtos/accounting_localization.rst:24
 msgid ""
 "The structure of a basic ``l10n_XX`` module may be described with the "
 "following :file:`__manifest__.py` file:"
 msgstr ""
+"Oddiy ``l10n_XX`` module tuzilishi quyidagi :file:`__manifest__.py` fayli "
+"orqali tavsiflanishi mumkin:"
 
 #: ../../content/developer/howtos/accounting_localization.rst:45
 msgid "Your worktree should look like this"
-msgstr ""
+msgstr "Sizning worktree'ingiz quyidagicha ko'rinishi kerak"
 
 #: ../../content/developer/howtos/accounting_localization.rst:67
 msgid ""
 "In the first file :file:`models/template_xx.py`, we set the name for the "
 "chart of accounts along with some basic fields."
 msgstr ""
+"Birinchi :file:`models/template_xx.py` faylida biz chart of accounts uchun "
+"nomni va ba'zi asosiy field'larni belgilaymiz."
 
 #: ../../content/developer/howtos/accounting_localization.rst:70
 msgid ""
 ":doc:`Chart Template References </developer/reference/standard_modules/"
 "account>`"
 msgstr ""
+":doc:`Chart Template havolalari </developer/reference/standard_modules/"
+"account>`"
 
 #: ../../content/developer/howtos/accounting_localization.rst:73
 msgid ""
 "`addons/l10n_be/models/template_be.py <https://github.com/odoo/odoo/blob/"
 "19.0/addons/l10n_be/models/template_be.py>`_"
 msgstr ""
+"`addons/l10n_be/models/template_be.py <https://github.com/odoo/odoo/blob/"
+"19.0/addons/l10n_be/models/template_be.py>`_"
 
 #: ../../content/developer/howtos/accounting_localization.rst:83
 msgid "Chart of Accounts"
-msgstr ""
+msgstr "Hisoblar rejasi (Chart of Accounts)"
 
 #: ../../content/developer/howtos/accounting_localization.rst:86
 msgid "Account tags"
-msgstr ""
+msgstr "Account tag'lari"
 
 #: ../../content/developer/howtos/accounting_localization.rst:89
 msgid ":ref:`Account Tag References <reference/account_account_tag>`"
-msgstr ""
+msgstr ":ref:`Account Tag havolalari <reference/account_account_tag>`"
 
 #: ../../content/developer/howtos/accounting_localization.rst:91
 msgid ""
@@ -380,28 +457,36 @@ msgid ""
 "dispatch the accounts according to their ``code``. The solution is the usage "
 "of tags, one for each report line, to filter accounts like you want."
 msgstr ""
+"Tag'lar account'larni saralash usulidir. Masalan, tasavvur qiling, siz bir "
+"nechta qatordan iborat moliyaviy hisobot yaratmoqchisiz, lekin account'larni "
+"ularning ``code`` qiymatiga qarab taqsimlash uchun qoida topa olmaysiz. "
+"Yechim — har bir hisobot qatori uchun bittadan tag ishlatish va shu orqali "
+"account'larni xohlaganingizdek filtrlash."
 
 #: ../../content/developer/howtos/accounting_localization.rst:95
 msgid "Put the tags in the :file:`data/account_account_tag_data.xml` file."
 msgstr ""
+"Tag'larni :file:`data/account_account_tag_data.xml` fayliga joylashtiring."
 
 #: ../../content/developer/howtos/accounting_localization.rst:98
 msgid ""
 "`addons/l10n_lt/data/template/account.account-lt.csv <https://github.com/"
 "odoo/odoo/blob/19.0/addons/l10n_lt/data/template/account.account-lt.csv>`_"
 msgstr ""
+"`addons/l10n_lt/data/template/account.account-lt.csv <https://github.com/"
+"odoo/odoo/blob/19.0/addons/l10n_lt/data/template/account.account-lt.csv>`_"
 
 #: ../../content/developer/howtos/accounting_localization.rst:106
 msgid "Accounts"
-msgstr ""
+msgstr "Account'lar"
 
 #: ../../content/developer/howtos/accounting_localization.rst:109
 msgid ":ref:`Account References <reference/account_account>`"
-msgstr ""
+msgstr ":ref:`Account havolalari <reference/account_account>`"
 
 #: ../../content/developer/howtos/accounting_localization.rst:110
 msgid ":doc:`/applications/finance/accounting/get_started/chart_of_accounts`"
-msgstr ""
+msgstr ":doc:`/applications/finance/accounting/get_started/chart_of_accounts`"
 
 #: ../../content/developer/howtos/accounting_localization.rst:112
 msgid ""
@@ -409,12 +494,17 @@ msgid ""
 "without :guilabel:`Accounts`. You need to specify them in :file:`data/"
 "account.account.template.csv`."
 msgstr ""
+"Shubhasiz, :guilabel:`Chart of Accounts` :guilabel:`Accounts` siz mavjud "
+"bo'la olmaydi. Ularni :file:`data/account.account.template.csv` faylida "
+"ko'rsatishingiz kerak."
 
 #: ../../content/developer/howtos/accounting_localization.rst:115
 msgid ""
 "`addons/l10n_ch/data/template/account.account-ch.csv <https://github.com/"
 "odoo/odoo/blob/19.0/addons/l10n_ch/data/template/account.account-ch.csv>`_"
 msgstr ""
+"`addons/l10n_ch/data/template/account.account-ch.csv <https://github.com/"
+"odoo/odoo/blob/19.0/addons/l10n_ch/data/template/account.account-ch.csv>`_"
 
 #: ../../content/developer/howtos/accounting_localization.rst:124
 msgid ""
@@ -422,6 +512,9 @@ msgid ""
 "accounts are created directly at the installation of the localization module "
 "and then, are linked to an ``account.journal``."
 msgstr ""
+"`asset_cash` ``account_type`` dan foydalanmang! Chunki bank va naqd pul "
+"account'lari localization module o'rnatilishida bevosita yaratiladi va "
+"so'ngra ``account.journal`` ga bog'lanadi."
 
 #: ../../content/developer/howtos/accounting_localization.rst:126
 msgid ""
@@ -429,6 +522,9 @@ msgid ""
 "We need to define a PoS receivable account as well however. (linked in the "
 "CoA)"
 msgstr ""
+"Umumiy holat uchun payable/receivable turidagi bitta account yetarli. Biroq "
+"biz PoS receivable account'ini ham aniqlashimiz kerak. (CoA ga bog'langan "
+"holda)"
 
 #: ../../content/developer/howtos/accounting_localization.rst:127
 msgid ""
@@ -436,14 +532,17 @@ msgid ""
 "find a good balance where the CoA needs minimal adapting for most companies "
 "afterwards."
 msgstr ""
+"Juda ko'p account yaratmang: 200-300 tasi yetarli. Lekin asosiysi, biz "
+"shunday muvozanat topishga harakat qilamizki, keyinchalik ko'pchilik "
+"kompaniyalar uchun CoA minimal moslashtirishni talab qilsin."
 
 #: ../../content/developer/howtos/accounting_localization.rst:131
 msgid "Account groups"
-msgstr ""
+msgstr "Account group'lari"
 
 #: ../../content/developer/howtos/accounting_localization.rst:134
 msgid ":ref:`Account Group References <reference/account_group>`"
-msgstr ""
+msgstr ":ref:`Account Group havolalari <reference/account_group>`"
 
 #: ../../content/developer/howtos/accounting_localization.rst:136
 msgid ""
@@ -451,6 +550,10 @@ msgid ""
 "accounts. The filter needs to be activated in the report and then when you "
 "decollapse into journal entries it will show the parents of the account."
 msgstr ""
+"Account group'lar chart of accounts'ning ierarxik tuzilishini tavsiflash "
+"imkonini beradi. Filtrni hisobotda faollashtirish kerak, shundan so'ng "
+"journal entry'largacha yoyganingizda account'ning ota-elementlari "
+"ko'rsatiladi."
 
 #: ../../content/developer/howtos/accounting_localization.rst:138
 msgid ""
@@ -459,25 +562,31 @@ msgid ""
 "``account.group`` as the parent group.  Furthermore, the account groups can "
 "have a parent account group as well to form the hierarchy."
 msgstr ""
+"U *start*/*end* prefiksi bilan ishlaydi, ya'ni kodi *start* va *end* "
+"orasidagi biror qiymat bilan boshlanadigan har bir account uchun ushbu "
+"``account.group`` ota guruh bo'ladi. Bundan tashqari, account group'lar ham "
+"ierarxiya hosil qilish uchun ota account group'ga ega bo'lishi mumkin."
 
 #: ../../content/developer/howtos/accounting_localization.rst:142
 msgid ""
 "`addons/l10n_il/data/template/account.group-il.csv <https://github.com/odoo/"
 "odoo/blob/19.0/addons/l10n_il/data/template/account.group-il.csv>`_"
 msgstr ""
+"`addons/l10n_il/data/template/account.group-il.csv <https://github.com/odoo/"
+"odoo/blob/19.0/addons/l10n_il/data/template/account.group-il.csv>`_"
 
 #: ../../content/developer/howtos/accounting_localization.rst:151
 #: ../../content/developer/reference/standard_modules/account/account_tax.rst:5
 msgid "Taxes"
-msgstr ""
+msgstr "Soliqlar"
 
 #: ../../content/developer/howtos/accounting_localization.rst:154
 msgid ":ref:`Tax References <reference/account_tax>`"
-msgstr ""
+msgstr ":ref:`Tax havolalari <reference/account_tax>`"
 
 #: ../../content/developer/howtos/accounting_localization.rst:155
 msgid ":doc:`/applications/finance/accounting/taxes/`"
-msgstr ""
+msgstr ":doc:`/applications/finance/accounting/taxes/`"
 
 #: ../../content/developer/howtos/accounting_localization.rst:157
 msgid ""
@@ -487,6 +596,12 @@ msgid ""
 "This model only has two required fields: `name` and `country`. Create the "
 "file :file:`data/template/account.tax.group-xx.csv` and list the groups."
 msgstr ""
+"Soliqlarni qo'shish uchun avval fiscal position'lar va tax group'larni "
+"ko'rsatishingiz kerak. Odatda har bir soliq stavkasi uchun bitta tax group "
+"yetarli, 0% dan tashqari — chunki ko'pincha exempt, 0%, not subject va shu "
+"kabi soliqlarni farqlash zarur bo'ladi. Ushbu model'da faqat ikkita majburiy "
+"field bor: `name` va `country`. :file:`data/template/account.tax.group-"
+"xx.csv` faylini yarating va guruhlarni sanab chiqing."
 
 #: ../../content/developer/howtos/accounting_localization.rst:160
 msgid ""
@@ -494,12 +609,17 @@ msgid ""
 "many. Leave the field empty if you want the tax to be shared by all fiscal "
 "positions."
 msgstr ""
+"Soliqlar kamida bitta fiscal position'ga tegishli bo'lishi kerak, lekin bir "
+"nechtasi o'rtasida umumiy bo'lishi ham mumkin. Agar soliq barcha fiscal "
+"position'lar uchun umumiy bo'lishini istasangiz, field'ni bo'sh qoldiring."
 
 #: ../../content/developer/howtos/accounting_localization.rst:163
 msgid ""
 "`addons/l10n_uk/data/template/account.tax.group-uk.csv <https://github.com/"
 "odoo/odoo/blob/19.0/addons/l10n_uk/data/template/account.tax.group-uk.csv>`_"
 msgstr ""
+"`addons/l10n_uk/data/template/account.tax.group-uk.csv <https://github.com/"
+"odoo/odoo/blob/19.0/addons/l10n_uk/data/template/account.tax.group-uk.csv>`_"
 
 #: ../../content/developer/howtos/accounting_localization.rst:170
 msgid ""
@@ -507,22 +627,29 @@ msgid ""
 "file.  The first tax you define that is purchase/sale also becomes the "
 "default purchase/sale tax for your products."
 msgstr ""
+"Endi soliqlarni :file:`data/template/account.tax-xx.csv` fayli orqali "
+"qo'shishingiz mumkin. Siz aniqlagan birinchi purchase/sale soliq shu bilan "
+"birga product'laringiz uchun standart purchase/sale soliqqa aylanadi."
 
 #: ../../content/developer/howtos/accounting_localization.rst:174
 msgid ""
 "`addons/l10n_ae/data/template/account.tax-ae.csv <https://github.com/odoo/"
 "odoo/blob/19.0/addons/l10n_ae/data/template/account.tax-ae.csv>`_"
 msgstr ""
+"`addons/l10n_ae/data/template/account.tax-ae.csv <https://github.com/odoo/"
+"odoo/blob/19.0/addons/l10n_ae/data/template/account.tax-ae.csv>`_"
 
 #: ../../content/developer/howtos/accounting_localization.rst:181
 msgid ""
 "A tax can also be a replacement for another. This replacement applies when "
 "the target fiscal position is used."
 msgstr ""
+"Soliq boshqa soliq o'rnini bosuvchi ham bo'lishi mumkin. Bunday almashtirish "
+"maqsadli fiscal position ishlatilganda qo'llaniladi."
 
 #: ../../content/developer/howtos/accounting_localization.rst:184
 msgid "Tax Report"
-msgstr ""
+msgstr "Soliq hisoboti"
 
 #: ../../content/developer/howtos/accounting_localization.rst:190
 msgid ""
@@ -530,16 +657,20 @@ msgid ""
 "the report is only accessible when :guilabel:`Accounting` "
 "(`account_accountant`) is installed."
 msgstr ""
+"Soliq hisoboti :guilabel:`Invoicing` (`account`) ilovasida e'lon qilinadi, "
+"lekin hisobot faqat :guilabel:`Accounting` (`account_accountant`) "
+"o'rnatilgan bo'lsa mavjud bo'ladi."
 
 #: ../../content/developer/howtos/accounting_localization.rst:193
 #: ../../content/developer/howtos/accounting_localization.rst:307
 msgid ""
 ":doc:`/developer/reference/standard_modules/account/account_report_line`"
 msgstr ""
+":doc:`/developer/reference/standard_modules/account/account_report_line`"
 
 #: ../../content/developer/howtos/accounting_localization.rst:194
 msgid ":doc:`/applications/finance/accounting/reporting/tax_returns`"
-msgstr ""
+msgstr ":doc:`/applications/finance/accounting/reporting/tax_returns`"
 
 #: ../../content/developer/howtos/accounting_localization.rst:196
 msgid ""
@@ -549,6 +680,11 @@ msgid ""
 "incomprehension. Bad news: you have to figure it out a bit. The topic is "
 "complicated. Indeed:"
 msgstr ""
+"Oldingi bo'limda siz `invoice_repartition_line_ids` yoki "
+"`refund_repartition_line_ids` field'larini payqadingiz va, ehtimol, ular "
+"haqida hech narsa tushunmadingiz. Yaxshi xabar: bu tushunmovchilikda siz "
+"yolg'iz emassiz. Yomon xabar: buni birmuncha o'rganib chiqishingizga to'g'ri "
+"keladi. Mavzu murakkab. Haqiqatan ham:"
 
 #: ../../content/developer/howtos/accounting_localization.rst:201
 msgid ""
@@ -560,6 +696,13 @@ msgid ""
 "<reference/account_tax>`, :ref:`Tax Repartition References <reference/"
 "account_tax_repartition>`)."
 msgstr ""
+"Soddaroq qilib aytganda, tax template'da siz invoice/refund repartition "
+"qatorlarida base yoki soliqning qaysi foizi qaysi hisobot qatorida aks "
+"etishini ko'rsatasiz (*minus/plus_report_line_ids* field'lari orqali). Bu "
+"Odoo interfeysida soliq konfiguratsiyasini ko'rib chiqqaningizda ham "
+"oydinlashadi (yoki hujjatlarni tekshiring: :ref:`Tax havolalari <reference/"
+"account_tax>`, :ref:`Tax Repartition havolalari <reference/"
+"account_tax_repartition>`)."
 
 #: ../../content/developer/howtos/accounting_localization.rst:204
 msgid ""
@@ -568,30 +711,38 @@ msgid ""
 "`account.report`. For it to be considered as a tax report, you need to "
 "provide it with the right `root_report_id`."
 msgstr ""
+"Demak, soliqlarni to'g'ri sozlab bo'lganingizdan so'ng, `account.report` "
+"uchun record bilan birga :file:`data/account_tax_report_data.xml` faylini "
+"qo'shishingiz kifoya. U soliq hisoboti sifatida hisobga olinishi uchun unga "
+"to'g'ri `root_report_id` ni berish kerak."
 
 #: ../../content/developer/howtos/accounting_localization.rst:218
 msgid ""
 "... followed by the declaration of its lines, as `account.report.line` "
 "records."
 msgstr ""
+"... so'ngra uning qatorlari `account.report.line` record'lari sifatida e'lon "
+"qilinadi."
 
 #: ../../content/developer/howtos/accounting_localization.rst:221
 msgid ""
 "`addons/l10n_au/data/account_tax_report_data.xml <https://github.com/odoo/"
 "odoo/blob/19.0/addons/l10n_au/data/account_tax_report_data.xml>`_"
 msgstr ""
+"`addons/l10n_au/data/account_tax_report_data.xml <https://github.com/odoo/"
+"odoo/blob/19.0/addons/l10n_au/data/account_tax_report_data.xml>`_"
 
 #: ../../content/developer/howtos/accounting_localization.rst:232
 msgid "Fiscal positions"
-msgstr ""
+msgstr "Fiscal position'lar"
 
 #: ../../content/developer/howtos/accounting_localization.rst:235
 msgid ":ref:`Fiscal Position References <reference/account_fiscal_position>`"
-msgstr ""
+msgstr ":ref:`Fiscal Position havolalari <reference/account_fiscal_position>`"
 
 #: ../../content/developer/howtos/accounting_localization.rst:236
 msgid ":doc:`/applications/finance/accounting/taxes/fiscal_positions`"
-msgstr ""
+msgstr ":doc:`/applications/finance/accounting/taxes/fiscal_positions`"
 
 #: ../../content/developer/howtos/accounting_localization.rst:238
 msgid ""
@@ -599,6 +750,9 @@ msgid ""
 "xx.csv` file. The first fiscal position that matches the company's country "
 "is considered the domestic fiscal position."
 msgstr ""
+"Fiscal position'larni :file:`data/template/account.fiscal.position-xx.csv` "
+"faylida ko'rsating. Kompaniya davlatiga mos keladigan birinchi fiscal "
+"position ichki (domestic) fiscal position hisoblanadi."
 
 #: ../../content/developer/howtos/accounting_localization.rst:242
 msgid ""
@@ -606,30 +760,37 @@ msgid ""
 "<https://github.com/odoo/odoo/blob/19.0/addons/l10n_es/data/template/"
 "account.fiscal.position-es_common_mainland.csv>`_"
 msgstr ""
+"`addons/l10n_es/data/template/account.fiscal.position-es_common_mainland.csv "
+"<https://github.com/odoo/odoo/blob/19.0/addons/l10n_es/data/template/"
+"account.fiscal.position-es_common_mainland.csv>`_"
 
 #: ../../content/developer/howtos/accounting_localization.rst:250
 msgid "Final steps"
-msgstr ""
+msgstr "Yakuniy qadamlar"
 
 #: ../../content/developer/howtos/accounting_localization.rst:252
 msgid ""
 "Finally, you may add a demo company, so the localization can easily be "
 "tested in demo mode."
 msgstr ""
+"Nihoyat, siz demo kompaniya qo'shishingiz mumkin, shunda localization'ni "
+"demo rejimda osongina sinab ko'rish mumkin bo'ladi."
 
 #: ../../content/developer/howtos/accounting_localization.rst:255
 msgid ""
 "`addons/l10n_ch/demo/demo_company.xml <https://github.com/odoo/odoo/blob/"
 "19.0/addons/l10n_ch/demo/demo_company.xml>`_"
 msgstr ""
+"`addons/l10n_ch/demo/demo_company.xml <https://github.com/odoo/odoo/blob/"
+"19.0/addons/l10n_ch/demo/demo_company.xml>`_"
 
 #: ../../content/developer/howtos/accounting_localization.rst:264
 msgid "Accounting reports"
-msgstr ""
+msgstr "Buxgalteriya hisobotlari"
 
 #: ../../content/developer/howtos/accounting_localization.rst:271
 msgid ":doc:`/applications/finance/accounting/reporting`"
-msgstr ""
+msgstr ":doc:`/applications/finance/accounting/reporting`"
 
 #: ../../content/developer/howtos/accounting_localization.rst:273
 msgid ""
@@ -637,21 +798,28 @@ msgid ""
 "that should go to the `enterprise repository <https://github.com/odoo/"
 "enterprise/blob/19.0>`_."
 msgstr ""
+"Buxgalteriya hisobotlari alohida `l10n_XX_reports` module orqali qo'shilishi "
+"kerak va u `enterprise repository <https://github.com/odoo/enterprise/blob/"
+"19.0>`_ ga joylanishi lozim."
 
 #: ../../content/developer/howtos/accounting_localization.rst:275
 msgid ""
 "Basic :file:`__manifest__.py` file for such a module looks as following:"
 msgstr ""
+"Bunday module uchun oddiy :file:`__manifest__.py` fayli quyidagicha "
+"ko'rinadi:"
 
 #: ../../content/developer/howtos/accounting_localization.rst:297
 msgid ""
 "Functional overview of financial reports is here: :doc:`/applications/"
 "finance/accounting/reporting`."
 msgstr ""
+"Moliyaviy hisobotlarning funksional sharhi shu yerda: :doc:`/applications/"
+"finance/accounting/reporting`."
 
 #: ../../content/developer/howtos/accounting_localization.rst:299
 msgid "Some good examples:"
-msgstr ""
+msgstr "Bir nechta yaxshi misollar:"
 
 #: ../../content/developer/howtos/accounting_localization.rst:301
 msgid ""
@@ -659,6 +827,9 @@ msgid ""
 "github.com/odoo/enterprise/blob/19.0/l10n_ch_reports/data/"
 "account_financial_html_report_data.xml>`_"
 msgstr ""
+"`l10n_ch_reports/data/account_financial_html_report_data.xml <https://"
+"github.com/odoo/enterprise/blob/19.0/l10n_ch_reports/data/"
+"account_financial_html_report_data.xml>`_"
 
 #: ../../content/developer/howtos/accounting_localization.rst:302
 msgid ""
@@ -666,14 +837,17 @@ msgid ""
 "github.com/odoo/enterprise/blob/19.0/l10n_be_reports/data/"
 "account_financial_html_report_data.xml>`_"
 msgstr ""
+"`l10n_be_reports/data/account_financial_html_report_data.xml <https://"
+"github.com/odoo/enterprise/blob/19.0/l10n_be_reports/data/"
+"account_financial_html_report_data.xml>`_"
 
 #: ../../content/developer/howtos/accounting_localization.rst:304
 msgid "You can check the meaning of the fields here:"
-msgstr ""
+msgstr "Field'larning ma'nosini shu yerda tekshirishingiz mumkin:"
 
 #: ../../content/developer/howtos/accounting_localization.rst:306
 msgid ":doc:`/developer/reference/standard_modules/account/account_report`"
-msgstr ""
+msgstr ":doc:`/developer/reference/standard_modules/account/account_report`"
 
 #: ../../content/developer/howtos/accounting_localization.rst:309
 msgid ""
@@ -688,28 +862,45 @@ msgid ""
 "calls the `account.report` with  the new **report id**. Then, set the new "
 "menu as `parent_id` field in the action model."
 msgstr ""
+"Agar report'ingizga `root_report_id` bergan bo'lsangiz, u endi uning variant "
+"selektorida mavjud bo'ladi. Aks holda, unga menyu elementi qo'shishingiz "
+"kerak. Standart menyu elementini report'ning form "
+"view'idan :menuselection:`Actions --> Create Menu Item` ni bosish orqali "
+"yaratish mumkin. So'ngra uni ko'rish uchun sahifani yangilashingiz kerak "
+"bo'ladi. Muqobil ravishda, :guilabel:`Reporting` menyusida mutlaqo yangi "
+"report uchun alohida bo'lim yaratmoqchi bo'lsangiz, yangi `ir.ui.menu` "
+"record (odatda asosiy `l10n_XX` modulida) va yangi **report id** bilan "
+"`account.report` ni chaqiradigan yangi `ir.actions.client` (odatda yangi "
+"report XML faylida) yaratishingiz kerak. Keyin yangi menyuni action "
+"model'idagi `parent_id` field sifatida belgilang."
 
 #: ../../content/developer/howtos/accounting_localization.rst:319
 msgid ""
 "`ir.ui.menu creation <https://github.com/odoo/odoo/blob/19.0/addons/l10n_be/"
 "data/menuitem_data.xml>`_"
 msgstr ""
+"`ir.ui.menu yaratish <https://github.com/odoo/odoo/blob/19.0/addons/l10n_be/"
+"data/menuitem_data.xml>`_"
 
 #: ../../content/developer/howtos/accounting_localization.rst:320
 msgid ""
 "`ir.actions.client and menu item creation <https://github.com/odoo/"
 "enterprise/blob/19.0/l10n_be_reports/data/partner_vat_listing.xml>`_"
 msgstr ""
+"`ir.actions.client va menyu elementini yaratish <https://github.com/odoo/"
+"enterprise/blob/19.0/l10n_be_reports/data/partner_vat_listing.xml>`_"
 
 #: ../../content/developer/howtos/company.rst:6
 msgid "Multi-company Guidelines"
-msgstr ""
+msgstr "Multi-company bo'yicha qo'llanmalar"
 
 #: ../../content/developer/howtos/company.rst:10
 msgid ""
 "This tutorial requires good knowledge of Odoo. Please refer to the :doc:`../"
 "tutorials/server_framework_101` tutorial first if needed."
 msgstr ""
+"Ushbu qo'llanma Odoo'ni yaxshi bilishni talab qiladi. Kerak bo'lsa, "
+"avval :doc:`../tutorials/server_framework_101` qo'llanmasiga murojaat qiling."
 
 #: ../../content/developer/howtos/company.rst:13
 msgid ""
@@ -717,6 +908,10 @@ msgid ""
 "This allows the user to access information from multiple companies, but also "
 "to create/edit records in a multi-company environment."
 msgstr ""
+"13.0 versiyasidan boshlab foydalanuvchi bir vaqtning o'zida bir nechta "
+"kompaniyaga kirgan bo'lishi mumkin. Bu foydalanuvchiga bir nechta kompaniya "
+"ma'lumotlariga kirish, shuningdek multi-company environment'da record'lar "
+"yaratish/tahrirlash imkonini beradi."
 
 #: ../../content/developer/howtos/company.rst:17
 msgid ""
@@ -726,36 +921,44 @@ msgid ""
 "company B to it. It is only when the user logs out from company B that "
 "access errors will occur for the sales order."
 msgstr ""
+"To'g'ri boshqarilmasa, bu ko'plab nomuvofiq multi-company xatti-harakatlar "
+"manbai bo'lishi mumkin. Masalan, A va B kompaniyalarining ikkalasiga ham "
+"kirgan foydalanuvchi A kompaniyasida sotuv buyurtmasini yaratib, unga B "
+"kompaniyasiga tegishli mahsulotlarni qo'shishi mumkin. Kirish xatolari faqat "
+"foydalanuvchi B kompaniyasidan chiqqanidan keyin sotuv buyurtmasi uchun "
+"yuzaga keladi."
 
 #: ../../content/developer/howtos/company.rst:22
 msgid ""
 "To correctly manage multi-company behaviors, Odoo's ORM provides multiple "
 "features:"
 msgstr ""
+"Multi-company xatti-harakatlarini to'g'ri boshqarish uchun Odoo ORM'i bir "
+"nechta imkoniyat taqdim etadi:"
 
 #: ../../content/developer/howtos/company.rst:24
 msgid ":ref:`Company-dependent fields <howto/company/company_dependent>`"
-msgstr ""
+msgstr ":ref:`Company-dependent field'lar <howto/company/company_dependent>`"
 
 #: ../../content/developer/howtos/company.rst:25
 msgid ":ref:`Multi-company consistency <howto/company/check_company>`"
-msgstr ""
+msgstr ":ref:`Multi-company muvofiqligi <howto/company/check_company>`"
 
 #: ../../content/developer/howtos/company.rst:26
 msgid ":ref:`Default company <howto/company/default_company>`"
-msgstr ""
+msgstr ":ref:`Standart kompaniya <howto/company/default_company>`"
 
 #: ../../content/developer/howtos/company.rst:27
 msgid ":ref:`Views <howto/company/views>`"
-msgstr ""
+msgstr ":ref:`View'lar <howto/company/views>`"
 
 #: ../../content/developer/howtos/company.rst:28
 msgid ":ref:`Security rules <howto/company/security>`"
-msgstr ""
+msgstr ":ref:`Xavfsizlik qoidalari <howto/company/security>`"
 
 #: ../../content/developer/howtos/company.rst:33
 msgid "Company-dependent fields"
-msgstr ""
+msgstr "Company-dependent field'lar"
 
 #: ../../content/developer/howtos/company.rst:35
 msgid ""
@@ -763,12 +966,17 @@ msgid ""
 "different values will be assigned to a given field depending on the company "
 "from which the value is set."
 msgstr ""
+"Record bir nechta kompaniyadan mavjud bo'lganda, qiymat qaysi kompaniyadan "
+"belgilanganiga qarab berilgan field'ga turli qiymatlar tayinlanishini kutish "
+"kerak."
 
 #: ../../content/developer/howtos/company.rst:38
 msgid ""
 "For the field of the same record to support several values, it must be "
 "defined with the attribute `company_dependent` set to `True`."
 msgstr ""
+"Bir xil record'ning field'i bir nechta qiymatni qo'llab-quvvatlashi uchun u "
+"`company_dependent` atributi `True` ga o'rnatilgan holda aniqlanishi kerak."
 
 #: ../../content/developer/howtos/company.rst:57
 msgid ""
@@ -777,6 +985,10 @@ msgid ""
 "ensure that the computed field is recomputed depending on the current "
 "company (`self.env.company`)."
 msgstr ""
+"`_compute_display_info` method joriy kompaniyaga (`self.env.company`) qarab "
+"computed field qayta hisoblanishini ta'minlash uchun "
+"`depends_context('company')` bilan dekoratsiyalangan "
+"(qarang :attr:`~odoo.api.depends_context`)."
 
 #: ../../content/developer/howtos/company.rst:61
 msgid ""
@@ -785,6 +997,11 @@ msgid ""
 "and B with A as the main company and creates a record for company B, the "
 "value of company-dependent fields will be that of company A."
 msgstr ""
+"Company-dependent field o'qilganda uning qiymatini olish uchun joriy "
+"kompaniya ishlatiladi. Boshqacha aytganda, agar foydalanuvchi A va B "
+"kompaniyalariga A asosiy kompaniya sifatida kirgan bo'lsa va B kompaniyasi "
+"uchun record yaratsa, company-dependent field'lar qiymati A kompaniyasiniki "
+"bo'ladi."
 
 #: ../../content/developer/howtos/company.rst:65
 msgid ""
@@ -793,6 +1010,11 @@ msgid ""
 "one.  This can be done with :meth:`~odoo.models.Model.with_company`, which "
 "updates the current company."
 msgstr ""
+"Joriy kompaniyadan boshqa kompaniya tomonidan belgilangan company-dependent "
+"field'lar qiymatlarini o'qish uchun ishlatayotgan kompaniyamiz to'g'ri "
+"ekanligiga ishonch hosil qilishimiz kerak. Buni joriy kompaniyani "
+"yangilaydigan :meth:`~odoo.models.Model.with_company` yordamida amalga "
+"oshirish mumkin."
 
 #: ../../content/developer/howtos/company.rst:80
 msgid ""
@@ -801,10 +1023,14 @@ msgid ""
 "in the right company. It doesn't cost much to always use `with_company` to "
 "avoid problems later."
 msgstr ""
+"Turli kompaniyalarda har xil ishlashi mumkin bo'lgan narsalarni "
+"hisoblayotganingizda/yaratayotganingizda/... qilayotgan ishingiz to'g'ri "
+"kompaniyada bajarilishiga ishonch hosil qiling. Keyinchalik muammolarga duch "
+"kelmaslik uchun doimo `with_company` dan foydalanish qimmatga tushmaydi."
 
 #: ../../content/developer/howtos/company.rst:101
 msgid "Multi-company consistency"
-msgstr ""
+msgstr "Multi-company muvofiqligi"
 
 #: ../../content/developer/howtos/company.rst:103
 msgid ""
@@ -813,20 +1039,29 @@ msgid ""
 "of another company through a relational field. For instance, we do not want "
 "to have a sales order and its invoice belonging to different companies."
 msgstr ""
+"Record `company_id` field yordamida bir nechta kompaniya o'rtasida "
+"bo'lishiladigan qilinganda, u relational field orqali boshqa kompaniyaning "
+"record'iga bog'lanmasligiga e'tibor berishimiz kerak. Masalan, biz sotuv "
+"buyurtmasi va uning hisob-fakturasi turli kompaniyalarga tegishli bo'lishini "
+"xohlamaymiz."
 
 #: ../../content/developer/howtos/company.rst:107
 msgid "To ensure this multi-company consistency, you must:"
 msgstr ""
+"Ushbu multi-company muvofiqligini ta'minlash uchun siz quyidagilarni "
+"bajarishingiz kerak:"
 
 #: ../../content/developer/howtos/company.rst:109
 msgid "Set the class attribute `_check_company_auto` to `True`."
-msgstr ""
+msgstr "`_check_company_auto` class atributini `True` ga o'rnating."
 
 #: ../../content/developer/howtos/company.rst:110
 msgid ""
 "Define relational fields with the attribute `check_company` set to `True` if "
 "their model has a `company_id` field."
 msgstr ""
+"Agar ularning model'ida `company_id` field bo'lsa, relational field'larni "
+"`check_company` atributi `True` ga o'rnatilgan holda aniqlang."
 
 #: ../../content/developer/howtos/company.rst:113
 msgid ""
@@ -834,10 +1069,13 @@ msgid ""
 "and :meth:`~odoo.models.Model.write`, automatic checks will be triggered to "
 "ensure the multi-company consistency of the record."
 msgstr ""
+"Har bir :meth:`~odoo.models.Model.create` "
+"va :meth:`~odoo.models.Model.write` da record'ning multi-company "
+"muvofiqligini ta'minlash uchun avtomatik tekshiruvlar ishga tushiriladi."
 
 #: ../../content/developer/howtos/company.rst:127
 msgid "The field `company_id` must not be defined with `check_company=True`."
-msgstr ""
+msgstr "`company_id` field'i `check_company=True` bilan aniqlanmasligi kerak."
 
 #: ../../content/developer/howtos/company.rst:132
 msgid ""
@@ -845,6 +1083,9 @@ msgid ""
 "record has no `company_id` (i.e., the field is not required), it cannot be "
 "linked to a record whose `company_id` is set."
 msgstr ""
+"`check_company` imkoniyati qat'iy tekshiruv o'tkazadi! Bu shuni anglatadiki, "
+"agar record'da `company_id` bo'lmasa (ya'ni field majburiy bo'lmasa), uni "
+"`company_id` belgilangan record'ga bog'lab bo'lmaydi."
 
 #: ../../content/developer/howtos/company.rst:138
 msgid ""
@@ -852,10 +1093,13 @@ msgid ""
 "a default domain is added: `['|', '('company_id', '=', False), "
 "('company_id', '=', company_id)]`"
 msgstr ""
+"Field'da hech qanday domain aniqlanmagan va `check_company` `True` ga "
+"o'rnatilgan bo'lsa, standart domain qo'shiladi: `['|', '('company_id', '=', "
+"False), ('company_id', '=', company_id)]`"
 
 #: ../../content/developer/howtos/company.rst:144
 msgid "Default company"
-msgstr ""
+msgstr "Standart kompaniya"
 
 #: ../../content/developer/howtos/company.rst:146
 msgid ""
@@ -866,6 +1110,12 @@ msgid ""
 "companies (i.e., when the user does not have the group "
 "`base.group_multi_company`)."
 msgstr ""
+"`company_id` field model'da majburiy qilinganda, standart kompaniyani "
+"belgilash yaxshi amaliyot hisoblanadi. Bu foydalanuvchi uchun sozlash "
+"oqimini osonlashtiradi yoki kompaniya ko'rinishdan yashirilgan bo'lsa, uning "
+"to'g'riligini kafolatlaydi. Darhaqiqat, agar foydalanuvchining bir nechta "
+"kompaniyaga kirish huquqi bo'lmasa (ya'ni foydalanuvchida "
+"`base.group_multi_company` guruhi bo'lmasa), kompaniya odatda yashiriladi."
 
 #: ../../content/developer/howtos/company.rst:168
 #: ../../content/developer/howtos/upgrade_custom_db.rst:129
@@ -874,7 +1124,7 @@ msgstr ""
 #: ../../content/developer/reference/frontend/javascript_reference.rst:497
 #: ../../content/developer/tutorials/importable_modules.rst:294
 msgid "Views"
-msgstr ""
+msgstr "View'lar"
 
 #: ../../content/developer/howtos/company.rst:170
 msgid ""
@@ -882,10 +1132,14 @@ msgid ""
 "usually hidden from view if the user does not have access to multiple "
 "companies. This is assessed with the group `base.group_multi_company`."
 msgstr ""
+":ref:`yuqorida <howto/company/default_company>` aytib o'tilganidek, agar "
+"foydalanuvchining bir nechta kompaniyaga kirish huquqi bo'lmasa, kompaniya "
+"odatda ko'rinishdan yashiriladi. Bu `base.group_multi_company` guruhi bilan "
+"baholanadi."
 
 #: ../../content/developer/howtos/company.rst:197
 msgid "Security rules"
-msgstr ""
+msgstr "Xavfsizlik qoidalari"
 
 #: ../../content/developer/howtos/company.rst:199
 msgid ""
@@ -893,6 +1147,9 @@ msgid ""
 "company, we must take care that a user does not have access to records "
 "belonging to other companies."
 msgstr ""
+"Kompaniyalar o'rtasida bo'lishiladigan yoki bitta kompaniya bilan cheklangan "
+"record'lar bilan ishlaganda, foydalanuvchi boshqa kompaniyalarga tegishli "
+"record'larga kirish huquqiga ega bo'lmasligiga e'tibor berishimiz kerak."
 
 #: ../../content/developer/howtos/company.rst:202
 msgid ""
@@ -900,6 +1157,9 @@ msgid ""
 "the current companies of the user (the companies the user checked in the "
 "multi-company widget)."
 msgstr ""
+"Bunga foydalanuvchining joriy kompaniyalarini (foydalanuvchi multi-company "
+"widget'ida belgilagan kompaniyalarni) o'z ichiga olgan `company_ids` ga "
+"asoslangan xavfsizlik qoidalari yordamida erishiladi."
 
 #: ../../content/developer/howtos/company.rst:229
 #: ../../content/developer/howtos/translations.rst:19
@@ -918,11 +1178,11 @@ msgstr ""
 #: ../../content/developer/tutorials/web.rst:134
 #: ../../content/developer/tutorials/web.rst:1872
 msgid "Todo"
-msgstr ""
+msgstr "Bajarilishi kerak"
 
 #: ../../content/developer/howtos/company.rst:229
 msgid "check_company on company_dependent fields."
-msgstr ""
+msgstr "company_dependent field'larda check_company."
 
 #: ../../content/developer/howtos/connect_device.rst:5
 msgid ""
@@ -931,18 +1191,23 @@ msgid ""
 "ways, so the Odoo client can send commands to and receive information from "
 "any of the supported devices."
 msgstr ""
+"IoT Driver'lar istalgan Odoo modulining IoT Box'ga ulangan istalgan qurilma "
+"bilan real vaqtda aloqa qilishiga imkon beradi. IoT Box bilan aloqa ikki "
+"tomonlama bo'lgani uchun Odoo klienti qo'llab-quvvatlanadigan istalgan "
+"qurilmaga buyruqlar yuborishi va undan ma'lumot olishi mumkin."
 
 #: ../../content/developer/howtos/connect_device.rst:10
 msgid "To add support for a device, all we need is:"
 msgstr ""
+"Qurilmani qo'llab-quvvatlashni qo'shish uchun bizga faqat quyidagilar kerak:"
 
 #: ../../content/developer/howtos/connect_device.rst:12
 msgid "an `Interface`, to detect connected devices of a specific type"
-msgstr ""
+msgstr "ma'lum turdagi ulangan qurilmalarni aniqlash uchun `Interface`"
 
 #: ../../content/developer/howtos/connect_device.rst:13
 msgid "a `Driver`, to communicate with an individual device"
-msgstr ""
+msgstr "alohida qurilma bilan aloqa qilish uchun `Driver`"
 
 #: ../../content/developer/howtos/connect_device.rst:15
 msgid ""
@@ -951,10 +1216,14 @@ msgid ""
 "`iot_handlers` directory that will be copied to the IoT Box. The structure "
 "of this directory is the following"
 msgstr ""
+"Har bir yuklanishda IoT Box ulangan Odoo instance'ida topilishi mumkin "
+"bo'lgan barcha Interface va Driver'larni yuklaydi. Har bir modul IoT Box'ga "
+"nusxalanadigan `iot_handlers` katalogini o'z ichiga olishi mumkin. Ushbu "
+"katalogning tuzilishi quyidagicha"
 
 #: ../../content/developer/howtos/connect_device.rst:34
 msgid "Detect Devices"
-msgstr ""
+msgstr "Qurilmalarni aniqlash"
 
 #: ../../content/developer/howtos/connect_device.rst:36
 msgid ""
@@ -963,6 +1232,10 @@ msgid ""
 "Printers, Serial, etc.). The interface maintains a list of detected devices "
 "and associates them with the right Driver."
 msgstr ""
+"IoT Box'ga ulangan qurilmalar `Interfaces` orqali aniqlanadi. Qo'llab-"
+"quvvatlanadigan har bir ulanish turi (USB, Bluetooth, Video, Printer, Serial "
+"va h.k.) uchun alohida Interface mavjud. Interface aniqlangan qurilmalar "
+"ro'yxatini yuritadi va ularni to'g'ri Driver bilan bog'laydi."
 
 #: ../../content/developer/howtos/connect_device.rst:41
 msgid ""
@@ -970,24 +1243,30 @@ msgid ""
 "access through its IP address and in the IoT module of the connected Odoo "
 "instance."
 msgstr ""
+"Qo'llab-quvvatlanadigan qurilmalar IP manzili orqali kirish mumkin bo'lgan "
+"IoT Box Homepage'da ham, ulangan Odoo instance'ining IoT modulida ham paydo "
+"bo'ladi."
 
 #: ../../content/developer/howtos/connect_device.rst:45
 msgid "Interface"
-msgstr ""
+msgstr "Interface"
 
 #: ../../content/developer/howtos/connect_device.rst:47
 msgid ""
 "The role of the Interface is to maintain a list of devices connected through "
 "a determined connection type. Creating a new interface requires"
 msgstr ""
+"Interface'ning vazifasi — ma'lum bir ulanish turi orqali ulangan qurilmalar "
+"ro'yxatini yuritish. Yangi interface yaratish uchun quyidagilar talab "
+"qilinadi"
 
 #: ../../content/developer/howtos/connect_device.rst:50
 msgid "Extending the `Interface` class"
-msgstr ""
+msgstr "`Interface` class'ini kengaytirish"
 
 #: ../../content/developer/howtos/connect_device.rst:51
 msgid "Setting the `connection_type` class attribute"
-msgstr ""
+msgstr "`connection_type` class atributini o'rnatish"
 
 #: ../../content/developer/howtos/connect_device.rst:52
 msgid ""
@@ -995,12 +1274,18 @@ msgid ""
 "containing data about each detected device. This data will be given as "
 "argument to the constructors and `supported` method of the Drivers."
 msgstr ""
+"Har bir aniqlangan qurilma haqidagi ma'lumotlarni o'z ichiga olgan lug'atni "
+"qaytarishi kerak bo'lgan `get_devices` method'ini amalga oshirish. Ushbu "
+"ma'lumotlar Driver'larning konstruktorlariga va `supported` method'iga "
+"argument sifatida beriladi."
 
 #: ../../content/developer/howtos/connect_device.rst:57
 msgid ""
 "Setting the `_loop_delay` attribute will modify the interval between calls "
 "to `get_devices`. By default, this interval is set to 3 seconds."
 msgstr ""
+"`_loop_delay` atributini o'rnatish `get_devices` ga chaqiruvlar orasidagi "
+"intervalni o'zgartiradi. Sukut bo'yicha bu interval 3 soniyaga o'rnatilgan."
 
 #: ../../content/developer/howtos/connect_device.rst:74
 msgid "Driver"
