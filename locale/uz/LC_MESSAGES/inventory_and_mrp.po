@@ -10120,7 +10120,7 @@ msgid ""
 "field: This checkbox determines whether Odoo tracks inventory for this "
 "product."
 msgstr ""
-":ref:`Zaxirani kuzatish <inventory/product_management/tracking-inventory>` "
+":ref:`Track Inventory <inventory/product_management/tracking-inventory>` "
 "maydoni: Ushbu belgilash katakchasi Odoo ushbu mahsulot uchun zaxirani "
 "kuzatish yoki kuzatmasligini belgilaydi."
 
